@@ -1,11 +1,11 @@
-import express from "express";
-import cors from "cors";
-import helmet from "helmet";
-import morgan from "morgan";
-import quetions from "./questions.json";
+const express = require("express");
+const cors = require("cors");
+const helmet = require("helmet");
+const morgan = require("morgan");
+const quetions = require("./questions.json");
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 
 app.use(cors());
 app.use(helmet());
@@ -16,5 +16,5 @@ app.get("/getquestions", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log("Server started on port 3001");
+  console.log("Server started on port", port);
 });
