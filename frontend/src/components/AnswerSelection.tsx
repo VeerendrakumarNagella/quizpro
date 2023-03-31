@@ -94,7 +94,10 @@ const AnswerSelection: FC<AnsProps> = ({
             </Button>
             <Card.Text>
               <span>
-                {stage === "hint" && `Time left: ${timeLeft} seconds`}
+                {(stage === "normal" ||
+                  stage === "warning" ||
+                  stage === "hint") &&
+                  `Timer: ${timeLeft} seconds`}
                 &nbsp; &nbsp;
                 {stage === "warning" && (
                   <span style={{ color: "orange" }}>Time is running out!</span>
