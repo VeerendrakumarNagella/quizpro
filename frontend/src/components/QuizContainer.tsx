@@ -36,7 +36,7 @@ const QuizContainer = () => {
     try {
       const { data } = await axios({
         method: "GET",
-        url: "/getqestions",
+        url: "https://quizpro-382317.de.r.appspot.com/getquestions",
       });
       const filterItems = data.filter(
         (_item: questionType, index: number) => noOfQuestions > index
