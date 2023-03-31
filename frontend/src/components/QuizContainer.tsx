@@ -30,6 +30,15 @@ const QuizContainer = () => {
 
   const { loading } = quizData;
 
+  const shuffleQuestions = (array: questionType[]) => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+
+    return array;
+  };
+
   const handleClick = async () => {
     setquizData({ ...quizData, loading: true });
 
@@ -41,14 +50,14 @@ const QuizContainer = () => {
       const filterItems = data.filter(
         (_item: questionType, index: number) => noOfQuestions > index
       );
-      setquizData({ data: filterItems, loading: false });
+      setquizData({ data: shuffleQuestions(filterItems), loading: false });
     } catch (_error) {
       const filterItems: any[] =
         (questions &&
           questions.length &&
           questions.filter((i, index: number) => noOfQuestions > index)) ||
         [];
-      setquizData({ data: filterItems, loading: false });
+      setquizData({ data: shuffleQuestions(filterItems), loading: false });
     }
   };
 

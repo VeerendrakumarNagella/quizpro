@@ -4,6 +4,7 @@ import Form from "react-bootstrap/Form";
 import Card from "react-bootstrap/Card";
 import Question from "./Question";
 import { questionType, submitDataType } from "./types";
+import CircularProgressWithLabel from "./CircularProgress";
 
 interface AnsProps {
   data: questionType;
@@ -12,6 +13,8 @@ interface AnsProps {
   isLastIndex: boolean;
   answer: number;
 }
+
+const timer = 30;
 
 const AnswerSelection: FC<AnsProps> = ({
   data,
@@ -24,8 +27,16 @@ const AnswerSelection: FC<AnsProps> = ({
     value: "",
     valueIndex: -1,
   });
-  const [timeLeft, setTimeLeft] = useState(45);
-  const [stage, setStage] = useState("normal");
+  const [timeLeft, setTimeLeft] = useState(timer);
+  const [stage, setStage] = useState<
+    | "primary"
+    | "inherit"
+    | "secondary"
+    | "error"
+    | "info"
+    | "success"
+    | "warning"
+  >("primary");
 
   const handleOptionChange = (
     event: ChangeEvent<HTMLInputElement>,
@@ -47,16 +58,16 @@ const AnswerSelection: FC<AnsProps> = ({
       setTimeLeft(timeLeft - 1);
     }, 1000);
 
-    if (timeLeft === 20 && stage === "normal") {
+    if (timeLeft === 20 && stage === "primary") {
       setStage("warning");
     }
 
     if (timeLeft === 10 && stage === "warning") {
-      setStage("hint");
+      setStage("error");
     }
 
     if (timeLeft === 0) {
-      setStage("timeout");
+      setStage("info");
       handleSubmit();
     }
 
@@ -65,8 +76,8 @@ const AnswerSelection: FC<AnsProps> = ({
   }, [timeLeft]);
 
   useEffect(() => {
-    setTimeLeft(45);
-    setStage("normal");
+    setTimeLeft(timer);
+    setStage("primary");
     setSelectedOption({
       value: "",
       valueIndex: -1,
@@ -88,28 +99,30 @@ const AnswerSelection: FC<AnsProps> = ({
             paddingTop: 0,
           }}
         >
-          <Stack direction="horizontal" gap={2}>
+          <Stack direction="horizontal" gap={4}>
             <Button onClick={handleSubmit}>
               {isLastIndex ? "Submit Test" : "Next Question"}
             </Button>
-            <Card.Text>
-              <span>
-                {(stage === "normal" ||
-                  stage === "warning" ||
-                  stage === "hint") &&
-                  `Timer: ${timeLeft} seconds`}
-                &nbsp; &nbsp;
-                {stage === "warning" && (
-                  <span style={{ color: "orange" }}>Time is running out!</span>
-                )}
-                {stage === "hint" && (
-                  <span style={{ color: "red" }}>Hint: {data.hint}</span>
-                )}
-                {stage === "timeout" && (
-                  <span style={{ color: "red" }}>Time's up!</span>
-                )}
-              </span>
-            </Card.Text>
+            <CircularProgressWithLabel
+              value={(timeLeft / timer) * 100}
+              textnode={timeLeft}
+              color={stage}
+              style={{
+                background: "#e3e3e3",
+                borderRadius: "50%",
+              }}
+            />
+            <div>
+              {stage === "warning" && (
+                <span style={{ color: "orange" }}>Time is running out!</span>
+              )}
+              {stage === "error" && (
+                <span style={{ color: "red" }}>Hint: {data.hint}</span>
+              )}
+              {stage === "info" && (
+                <span style={{ color: "red" }}>Time's up!</span>
+              )}
+            </div>
           </Stack>
         </Card.Body>
       </Card>

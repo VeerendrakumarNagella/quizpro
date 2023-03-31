@@ -48,6 +48,8 @@ const Question: FC<QuestionProps> = ({
     <>
       <Card.Header as="h5">
         {currentQuestionIndex + 1}. {data.question}
+        <br />
+        <br />
         {selectedOption.valueIndex < 0 && isPreview && (
           <span style={{ color: "red" }}> - You didn't select any answer</span>
         )}
