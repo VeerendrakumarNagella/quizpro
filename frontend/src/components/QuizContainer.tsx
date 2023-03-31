@@ -14,6 +14,7 @@ import {
   submitDataType,
   questionType,
 } from "./types";
+import questions from "./questions.json";
 
 const QuizContainer = () => {
   const [quizData, setquizData] = useState<quizDataType>({
@@ -35,14 +36,19 @@ const QuizContainer = () => {
     try {
       const { data } = await axios({
         method: "GET",
-        url: "http://localhost:3001/getquestions",
+        url: "/getqestions",
       });
       const filterItems = data.filter(
         (_item: questionType, index: number) => noOfQuestions > index
       );
       setquizData({ data: filterItems, loading: false });
     } catch (_error) {
-      setquizData({ data: [], loading: false });
+      const filterItems: any[] =
+        (questions &&
+          questions.length &&
+          questions.filter((i, index: number) => noOfQuestions > index)) ||
+        [];
+      setquizData({ data: filterItems, loading: false });
     }
   };
 
