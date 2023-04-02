@@ -123,7 +123,7 @@ const QuizContainer = () => {
                 best.
               </Card.Text>
               <Card.Text>
-                For Each question you have 45 seconds to complete.
+                For Each question you have 30 seconds to complete.
               </Card.Text>
               <Button
                 disabled={loading || quizData.data.length ? true : false}
