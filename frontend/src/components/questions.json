@@ -1,165 +1,351 @@
 [
   {
     "question_id": 1,
-    "question": "What famous Roman general and statesman was assassinated on the Ides of March in 44BC?",
-    "answer_index": 0,
-    "choices": ["Julius Caesar", "Augustus", "Nero", "Caligula"],
-    "hint": "He was also a renowned military commander."
+    "question": "Inside which HTML element do we put the JavaScript?",
+    "answer_index": 1,
+    "choices": ["<javascript>", "<script>", "<scripting>", "<js>"],
+    "hint": "It is the standard tag used for embedding JavaScript code in HTML."
   },
   {
     "question_id": 2,
-    "question": "What was the name of the ancient Roman currency?",
-    "answer_index": 1,
-    "choices": ["Sestertius", "Denarius", "Aureus", "As"],
-    "hint": "It was a silver coin."
+    "question": "Which of the following is correct to write a 'Hello World' message in an alert box?",
+    "answer_index": 0,
+    "choices": [
+      "alert('Hello World');",
+      "msg('Hello World');",
+      "msgBox('Hello World');",
+      "alertBox('Hello World');"
+    ],
+    "hint": "Use the function that is built-in for displaying alert boxes."
   },
   {
     "question_id": 3,
-    "question": "What famous building in Rome was originally built as a stadium for chariot races and other public events?",
+    "question": "How do you create a function in JavaScript?",
     "answer_index": 1,
-    "choices": ["The Colosseum", "Circus Maximus", "Pantheon", "Forum Romanum"],
-    "hint": "It could hold up to 250,000 spectators."
+    "choices": [
+      "function = myFunction()",
+      "function myFunction()",
+      "create myFunction()",
+      "function: myFunction()"
+    ],
+    "hint": "The syntax starts with the 'function' keyword, followed by the name of the function."
   },
   {
     "question_id": 4,
-    "question": "What famous Roman emperor built a wall in northern Britain to protect against Scottish tribes?",
+    "question": "How do you call a function named 'myFunction'?",
     "answer_index": 0,
-    "choices": ["Hadrian", "Constantine", "Trajan", "Augustus"],
-    "hint": "The wall is named after him."
+    "choices": [
+      "myFunction()",
+      "call myFunction()",
+      "call function myFunction()",
+      "execute myFunction()"
+    ],
+    "hint": "Simply use the function name followed by parentheses."
   },
   {
     "question_id": 5,
-    "question": "What was the name of the first Roman emperor?",
-    "answer_index": 3,
-    "choices": ["Julius Caesar", "Tiberius", "Caligula", "Augustus"],
-    "hint": "He was the nephew of Julius Caesar."
+    "question": "How to write an IF statement in JavaScript?",
+    "answer_index": 0,
+    "choices": ["if (i == 5)", "if i = 5 then", "if i == 5 then", "if i = 5"],
+    "hint": "The condition is written inside parentheses."
   },
   {
     "question_id": 6,
-    "question": "What was the name of the famous Roman road that ran from Rome to Brindisi?",
-    "answer_index": 2,
-    "choices": ["Via Appia", "Via Flaminia", "Via Traiana", "Via Aurelia"],
-    "hint": "It was also known as the Appian Way."
+    "question": "What will 'console.log(1 + '2' + '2');' output?",
+    "answer_index": 0,
+    "choices": ["'122'", "'32'", "'14'", "'222'"],
+    "hint": "Remember how JavaScript handles type coercion with the '+' operator."
   },
   {
     "question_id": 7,
-    "question": "What was the name of the famous Roman physician who wrote a famous medical text known as the 'Canon'?",
-
-    "answer_index": 3,
-    "choices": ["Galen", "Hippocrates", "Aristotle", "Avicenna"],
-    "hint": "He was born in Persia (modern-day Iran)."
+    "question": "How do you add an element at the beginning of an array?",
+    "answer_index": 1,
+    "choices": [".push()", ".unshift()", ".append()", ".prepend()"],
+    "hint": "There's a specific array method that adds elements to the start of an array."
   },
   {
     "question_id": 8,
-    "question": "What was the name of the famous Roman philosopher who wrote 'Meditations'?",
+    "question": "Which method can be used to replace parts of a string?",
     "answer_index": 0,
-    "choices": ["Marcus Aurelius", "Seneca", "Epictetus", "Plato"],
-    "hint": "He was also a Roman emperor."
+    "choices": [".replace()", ".splice()", ".cut()", ".trim()"],
+    "hint": "This method takes two arguments: the substring to be replaced and the replacement."
   },
   {
     "question_id": 9,
-    "question": "What was the name of the ancient Roman festival of Saturnalia?",
-    "answer_index": 0,
-    "choices": ["Saturnalia", "Lupercalia", "Fornacalia", "Consualia"],
-    "hint": "It was held in honor of the god Saturn."
+    "question": "How do you declare a JavaScript variable?",
+    "answer_index": 2,
+    "choices": ["v name;", "variable name;", "var name;", "let name;"],
+    "hint": "Two keywords can be used to declare a JavaScript variable, including the one that is more traditional."
   },
   {
     "question_id": 10,
-    "question": "What was the name of the famous Roman poet who wrote the epic poem 'The Aeneid'?",
-    "answer_index": 1,
-    "choices": ["Horace", "Virgil", "Ovid", "Catullus"],
-    "hint": "He lived during the reign of Augustus."
+    "question": "Which object is used to store and manipulate text strings which can contain markup?",
+    "answer_index": 3,
+    "choices": ["StringObject", "Stringer", "TextString", "DOMString"],
+    "hint": "It's an interface usually used when dealing with the Document Object Model."
   },
   {
     "question_id": 11,
-    "question": "What was the name of the famous Roman statesman and orator known for his speeches against Mark Antony?",
-    "answer_index": 2,
+    "question": "How can you convert the string 'false' to a boolean false in JavaScript?",
+    "answer_index": 1,
     "choices": [
-      "Cato the Elder",
-      "Marcus Licinius Crassus",
-      "Cicero",
-      "Lucius Cornelius Sulla"
+      "Boolean('false')",
+      "!!'false'",
+      "'false'.boolean()",
+      "None of the above"
     ],
-    "hint": "He was one of Rome's greatest orators."
+    "hint": "One method involves using logical operators to convert a truthy string to a boolean true, then inverting it."
   },
   {
     "question_id": 12,
-    "question": "What was the name of the ancient Roman goddess of love and beauty?",
-    "answer_index": 1,
-    "choices": ["Juno", "Venus", "Minerva", "Diana"],
-    "hint": "She was the mother of Cupid."
+    "question": "What is the output of 'console.log(typeof null);'?",
+    "answer_index": 0,
+    "choices": ["'object'", "'null'", "'undefined'", "'type'"],
+    "hint": "This is a bit of a JavaScript quirk related to how types are determined."
   },
   {
     "question_id": 13,
-    "question": "What was the name of the famous Roman commander who defeated the Carthaginian general Hannibal in the Second Punic War?",
-    "answer_index": 3,
+    "question": "Which statement about arrow functions is true?",
+    "answer_index": 2,
     "choices": [
-      "Scipio Africanus",
-      "Julius Caesar",
-      "Pompey",
-      "Fabius Maximus"
+      "Arrow functions can be used as constructors.",
+      "Arrow functions do not have a 'this' context.",
+      "Arrow functions do not have their own 'this', they inherit it from the parent scope.",
+      "Arrow functions have both their own 'this' and can inherit from the parent scope."
     ],
-    "hint": "He was also known as Scipio the Elder."
+    "hint": "The 'this' context in arrow functions behaves differently than in regular functions."
   },
   {
     "question_id": 14,
-
-    "question": "What was the name of the famous Roman historian who wrote 'The Histories'?",
-    "answer_index": 0,
-    "choices": ["Tacitus", "Livy", "Suetonius", "Plutarch"],
-    "hint": "He lived during the reigns of several emperors, including Nero and Trajan."
+    "question": "How do you find the largest number in an array of numbers?",
+    "answer_index": 1,
+    "choices": [
+      "Math.max(array)",
+      "Math.max.apply(null, array)",
+      "array.max()",
+      "array.findMax()"
+    ],
+    "hint": "One of the Math object methods can be used with 'apply' to find the maximum in an array."
   },
   {
     "question_id": 15,
-    "question": "What was the name of the famous Roman emperor who famously said 'I found Rome a city of bricks and left it a city of marble'?",
-    "answer_index": 2,
-    "choices": ["Augustus", "Nero", "Titus", "Vespasian"],
-    "hint": "He ruled from 14 AD to 37 AD."
+    "question": "What does the 'async' keyword do to a function in JavaScript?",
+    "answer_index": 0,
+    "choices": [
+      "Makes it return a Promise",
+      "Increases its execution speed",
+      "Delays its execution until the call stack is empty",
+      "None of the above"
+    ],
+    "hint": "This keyword alters the behavior of a function related to asynchronous operations."
   },
   {
     "question_id": 16,
-    "question": "What was the name of the famous Roman general who defeated the Greek city-state of Corinth in 146 BC and sacked the city?",
-    "answer_index": 1,
+    "question": "What is a 'Promise' in JavaScript?",
+    "answer_index": 3,
     "choices": [
-      "Pompey",
-      "Lucius Mummius",
-      "Gnaeus Domitius Ahenobarbus",
-      "Scipio Aemilianus"
+      "A data type that represents a future event.",
+      "A function that is guaranteed to execute.",
+      "A callback function for asynchronous operations.",
+      "An object representing the eventual completion or failure of an asynchronous operation."
     ],
-    "hint": "He was also known for his patronage of the arts."
+    "hint": "Promises are used for asynchronous computation."
   },
   {
     "question_id": 17,
-    "question": "What was the name of the famous Roman emperor who issued the Edict of Milan, which granted religious tolerance to Christians in the Roman Empire?",
-    "answer_index": 3,
-    "choices": ["Trajan", "Hadrian", "Constantine", "Nero"],
-    "hint": "He was also known for his military campaigns in the east."
+    "question": "What will the following code output? 'console.log(!![]);'",
+    "answer_index": 1,
+    "choices": ["false", "true", "undefined", "SyntaxError"],
+    "hint": "Consider how the double negation operator works with array values."
   },
   {
     "question_id": 18,
-    "question": "What was the name of the famous Roman general who was defeated by Hannibal at the Battle of Cannae in 216 BC?",
-    "answer_index": 1,
+    "question": "Which of these is a correct method to create a new object in JavaScript?",
+    "answer_index": 0,
     "choices": [
-      "Scipio Africanus",
-      "Lucius Aemilius Paullus",
-      "Publius Cornelius Scipio",
-      "Gaius Flaminius"
+      "var obj = {};",
+      "var obj = new obj();",
+      "var obj = new Array();",
+      "var obj = new OBJECT();"
     ],
-    "hint": "He was known for his innovative military tactics."
+    "hint": "The simplest way to create an object uses curly braces."
   },
   {
-    " question_id": 19,
-    "question": "What was the name of the famous Roman poet who wrote the 'Metamorphoses'?",
-    "answer_index": 2,
-    "choices": ["Lucretius", "Catullus", "Ovid", "Horace"],
-    "hint": "He was exiled by the Roman emperor Augustus."
+    "question_id": 19,
+    "question": "How to stop the propagation of an event in JavaScript?",
+    "answer_index": 1,
+    "choices": [
+      "event.stop()",
+      "event.stopPropagation()",
+      "event.preventDefault()",
+      "event.halt()"
+    ],
+    "hint": "There is a specific method on the event object that prevents further propagation of the current event."
   },
   {
     "question_id": 20,
-    "question": "What was the name of the famous Roman general who defeated the Egyptian forces of Cleopatra and Mark Antony in the Battle of Actium in 31 BC?",
+    "question": "What is the purpose of the Array.prototype.map() method?",
     "answer_index": 0,
-    "choices": ["Octavian (Augustus)", "Julius Caesar", "Pompey", "Antony"],
-
-    "hint": "He became the first Roman emperor."
+    "choices": [
+      "Creates a new array with the results of calling a provided function on every element in the calling array.",
+      "Calls a provided function once for each element in an array, in order.",
+      "Applies a function against an accumulator and each element in the array (from left to right) to reduce it to a single value.",
+      "Searches the array for an element that meets a condition and returns its index."
+    ],
+    "hint": "This method transforms each element in the original array by applying a function to it."
+  },
+  {
+    "question_id": 21,
+    "question": "What will be the output of the following code snippet? console.log(x); let x = 5;",
+    "answer_index": 0,
+    "choices": ["ReferenceError", "undefined", "5", "null"],
+    "hint": "Consider how `let` and `const` variables are hoisted compared to `var`."
+  },
+  {
+    "question_id": 22,
+    "question": "Which of the following is the correct way to define a multi-line string using ES6 template literals?",
+    "answer_index": 1,
+    "choices": [
+      "`Hello \\nworld!`",
+      "`Hello \nworld!`",
+      "\"Hello \nworld!\"",
+      "'Hello \\nworld!'"
+    ],
+    "hint": "Template literals allow for multi-line strings without the need for escaping newline characters."
+  },
+  {
+    "question_id": 23,
+    "question": "In JavaScript, what does the 'this' keyword refer to inside an arrow function?",
+    "answer_index": 3,
+    "choices": [
+      "The function itself",
+      "The global object",
+      "The document object",
+      "The lexical scope"
+    ],
+    "hint": "Arrow functions do not have their own 'this'; they capture the 'this' value of the enclosing context."
+  },
+  {
+    "question_id": 24,
+    "question": "What is the purpose of the async/await feature in JavaScript?",
+    "answer_index": 1,
+    "choices": [
+      "To pause the execution of a function synchronously",
+      "To write asynchronous code in a synchronous manner",
+      "To increase the performance of promises",
+      "To automatically execute asynchronous functions"
+    ],
+    "hint": "Async/await simplifies working with promises by allowing asynchronous code to look and behave a bit more like synchronous code."
+  },
+  {
+    "question_id": 25,
+    "question": "What will be the output of the following code? const [a, b] = [1, 2, 3, 4, 5]; console.log(a, b);",
+    "answer_index": 0,
+    "choices": ["1 2", "1 3", "2 3", "1 5"],
+    "hint": "Destructuring allows you to unpack values from arrays, or properties from objects, into distinct variables."
+  },
+  {
+    "question_id": 26,
+    "question": "How do you declare a JavaScript variable?",
+    "answer_index": 3,
+    "choices": ["int count;", "var count;", "count = 5;", "let count;"],
+    "hint": "There's a keyword introduced in ES6 for declaring variables."
+  },
+  {
+    "question_id": 27,
+    "question": "Which method removes the last element from an array?",
+    "answer_index": 1,
+    "choices": ["shift()", "pop()", "delete()", "remove()"],
+    "hint": "This method also returns the removed element."
+  },
+  {
+    "question_id": 28,
+    "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
+    "answer_index": 0,
+    "choices": [
+      "<script href='xxx.js'>",
+      "<script name='xxx.js'>",
+      "<script src='xxx.js'>",
+      "<script file='xxx.js'>"
+    ],
+    "hint": "The attribute specifies the URI of an external script."
+  },
+  {
+    "question_id": 29,
+    "question": "How to write an 'if' statement for executing some code if 'i' is NOT equal to 5?",
+    "answer_index": 2,
+    "choices": ["if i <> 5", "if (i != 5)", "if (i !== 5)", "if i not= 5"],
+    "hint": "There's a strict version of this operator."
+  },
+  {
+    "question_id": 30,
+    "question": "What will the following code return: Boolean(10 > 9)",
+    "answer_index": 0,
+    "choices": ["true", "false", "NaN", "undefined"],
+    "hint": "Consider the comparison operation."
+  },
+  {
+    "question_id": 31,
+    "question": "Which event occurs when the user clicks on an HTML element?",
+    "answer_index": 1,
+    "choices": ["onchange", "onclick", "onmouseover", "onmouseclick"],
+    "hint": "It's the most direct way to detect a user's click."
+  },
+  {
+    "question_id": 32,
+    "question": "How do you declare a function in JavaScript?",
+    "answer_index": 1,
+    "choices": [
+      "function: myFunction()",
+      "function myFunction()",
+      "new Function()",
+      "function = myFunction()"
+    ],
+    "hint": "It starts with a keyword followed by the name of the function."
+  },
+  {
+    "question_id": 33,
+    "question": "What is the correct way to write a JavaScript array?",
+    "answer_index": 0,
+    "choices": [
+      "var colors = ['red', 'green', 'blue']",
+      "var colors = (1:'red', 2:'green', 3:'blue')",
+      "var colors = 'red', 'green', 'blue'",
+      "var colors = 1 = ('red'), 2 = ('green'), 3 = ('blue')"
+    ],
+    "hint": "This type of data structure is enclosed in square brackets."
+  },
+  {
+    "question_id": 34,
+    "question": "Which operator is used to assign a value to a variable?",
+    "answer_index": 0,
+    "choices": ["=", "==", "===", "None of the above"],
+    "hint": "It's the simplest form of operators."
+  },
+  {
+    "question_id": 35,
+    "question": "What will 'var a = (1,5-1) * 2' evaluate to?",
+    "answer_index": 3,
+    "choices": ["0", "4", "NaN", "8"],
+    "hint": "Consider the order of operations and the use of parentheses."
+  },
+  {
+    "question_id": 36,
+    "question": "Which object provides methods to perform HTTP requests?",
+    "answer_index": 2,
+    "choices": ["HTTP", "Ajax", "XMLHttpRequest", "Request"],
+    "hint": "This object can be used to interact with servers."
+  },
+  {
+    "question_id": 37,
+    "question": "How can you detect the client's browser name?",
+    "answer_index": 0,
+    "choices": [
+      "navigator.appName",
+      "browser.name",
+      "client.navName",
+      "window.browser"
+    ],
+    "hint": "It's a property of a global object."
   }
 ]
