@@ -13,7 +13,7 @@ const QuestionSelect: FC<QProps> = ({ handleChange }) => {
       style={{ maxWidth: "250px" }}
     >
       <option>Select number of questions</option>
-      {new Array(11).fill(1).map((val: number, index: number) => (
+      {new Array(20).fill(1).map((val: number, index: number) => (
         <option value={index + 5} key={index}>
           {index + 5}
         </option>
