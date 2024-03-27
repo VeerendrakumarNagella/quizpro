@@ -8,16 +8,21 @@ interface QProps {
 const QuestionSelect: FC<QProps> = ({ handleChange }) => {
   return (
     <Form.Select
-      aria-label="Sslect number of questions"
+      aria-label="Select number of questions"
       onChange={handleChange}
       style={{ maxWidth: "250px" }}
     >
       <option>Select number of questions</option>
-      {new Array(20).fill(1).map((val: number, index: number) => (
-        <option value={index + 5} key={index}>
-          {index + 5}
-        </option>
-      ))}
+      <option value={5}>5</option>
+      <option value={10}>10</option>
+      <option value={15}>15</option>
+      <option value={20}>20</option>
+      <option value={25}>25</option>
+      <option value={30}>30</option>
+      <option value={35}>35</option>
+      <option value={40}>40</option>
+      <option value={45}>45</option>
+      <option value={50}>50</option>
     </Form.Select>
   );
 };

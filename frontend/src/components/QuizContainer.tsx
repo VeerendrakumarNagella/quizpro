@@ -15,6 +15,7 @@ import {
   questionType,
 } from "./types";
 import questions from "./questions.json";
+import QuizTopicSelection from "./QuizTopicSelection";
 
 const QuizContainer = () => {
   const [quizData, setquizData] = useState<quizDataType>({
@@ -27,6 +28,9 @@ const QuizContainer = () => {
   const [score, setScore] = useState<number>(0);
   const [isCompleted, setisCompleted] = useState<boolean>(false);
   const [isLoadAnswers, setisLoadAnswers] = useState<boolean>(false);
+  const [topic, setTopic] = useState<"html" | "css" | "js" | "react" | "redux">(
+    "html"
+  );
 
   const { loading } = quizData;
 
@@ -52,13 +56,18 @@ const QuizContainer = () => {
       );
       setquizData({ data: shuffleQuestions(filterItems), loading: false });
     } catch (_error) {
-      const filterItems: any[] =
-        (questions &&
-          questions.length &&
-          questions.filter((i, index: number) => noOfQuestions > index)) ||
-        [];
-      setquizData({ data: shuffleQuestions(filterItems), loading: false });
+      getQuizData();
     }
+  };
+
+  const getQuizData = () => {
+    const questionsData = questions[topic];
+    const filterItems: any[] =
+      (questionsData &&
+        questionsData.length &&
+        questionsData.filter((_i, index: number) => noOfQuestions > index)) ||
+      [];
+    setquizData({ data: shuffleQuestions(filterItems), loading: false });
   };
 
   const handleQuestionSubmit = ({
@@ -103,43 +112,44 @@ const QuizContainer = () => {
     }
   };
 
+  const handleTopicChange = (e: ChangeEvent<HTMLSelectElement>) => {
+    setTopic(e.target.value as "html" | "css" | "js" | "react" | "redux");
+  };
+
   return (
     <Container>
       {!noOfQuestions ? (
         <Stack gap={2} direction="horizontal">
           <h2>Select number of questions wanted to ask ?</h2>
+          <QuizTopicSelection handleChange={handleTopicChange} />
           <QuestionSelect handleChange={handleChange} />
         </Stack>
       ) : (
-        <>
-          <Card>
-            <Card.Header as="h5">Quiz</Card.Header>
-            <Card.Body>
-              <Card.Title>
-                You have selected {noOfQuestions} questions
-              </Card.Title>
-              <Card.Text>
-                Please start the test by clicking below start button, All the
-                best.
-              </Card.Text>
-              <Card.Text>
-                For Each question you have 30 seconds to complete.
-              </Card.Text>
-              <Button
-                disabled={loading || quizData.data.length ? true : false}
-                onClick={!loading ? handleClick : () => ""}
-              >
-                {loading
-                  ? "Loading..."
-                  : loading || quizData.data.length
-                  ? isCompleted
-                    ? "Test Completed"
-                    : "Test Started"
-                  : "Start Test"}
-              </Button>
-            </Card.Body>
-          </Card>
-        </>
+        <Card>
+          <Card.Header as="h5">Quiz</Card.Header>
+          <Card.Body>
+            <Card.Title>You have selected {noOfQuestions} questions</Card.Title>
+            <Card.Text>
+              Please start the test by clicking below start button, All the
+              best.
+            </Card.Text>
+            <Card.Text>
+              For Each question you have 30 seconds to complete.
+            </Card.Text>
+            <Button
+              disabled={loading || quizData.data.length ? true : false}
+              onClick={!loading ? handleClick : () => ""}
+            >
+              {loading
+                ? "Loading..."
+                : loading || quizData.data.length
+                ? isCompleted
+                  ? "Test Completed"
+                  : "Test Started"
+                : "Start Test"}
+            </Button>
+          </Card.Body>
+        </Card>
       )}
 
       <br />
