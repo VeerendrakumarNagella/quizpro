@@ -10,55 +10,55 @@
         "HyperText Markdown Language.",
         "None of the above."
       ],
-      "hint": "HTML stands for HyperText Markup Language."
+      "hint": "fullform of html"
     },
 
     {
       "question_id": 2,
       "question": "What is the correct HTML element for the largest heading?",
-      "answer_index": 3,
+      "answer_index": 2,
       "choices": ["<heading>", "<h6>", "<h1>", "<h4>"],
-      "hint": "HTML heading elements are defined with the <h1> to <h6> tags. <h1> defines the most important heading, while <h6> defines the least important heading."
+      "hint": "HTML heading elements are defined with the <h1> to <h6> tags. "
     },
     {
       "question_id": 3,
       "question": "Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?",
-      "answer_index": 2,
-      "choices": ["title", "src", "alt", "href"],
-      "hint": "The 'alt' attribute provides alternative text for images. It is important for accessibility and SEO purposes."
+      "answer_index": 3,
+      "choices": ["title", "src", "href", "alt"],
+      "hint": "It is important for accessibility and SEO purposes."
     },
     {
       "question_id": 4,
       "question": "What is the correct HTML for creating a hyperlink?",
-      "answer_index": 1,
+      "answer_index": 0,
       "choices": [
         "<a href='http://www.example.com'>Example</a>",
         "<a url='http://www.example.com'>Example</a>",
         "<a>http://www.example.com</a>",
         "<a name='http://www.example.com'>Example</a>"
       ],
-      "hint": "The <a> tag defines a hyperlink, and the 'href' attribute specifies the URL of the page the link goes to."
+      "hint": "that attribute specifies the URL of the page the link goes to."
     },
     {
       "question_id": 5,
       "question": "Which character is used to indicate the end of an HTML tag?",
       "answer_index": 1,
       "choices": [">", "/", ".", ";"],
-      "hint": "HTML tags are enclosed in angle brackets, < and >. The end of a tag is indicated by a forward slash (/) before the tag name."
+      "hint": "HTML tags are enclosed in angle brackets, < and >. "
     },
     {
       "question_id": 6,
       "question": "Which HTML tag is used to define an unordered list?",
-      "answer_index": 2,
-      "choices": ["<ul>", "<li>", "<ol>", "<list>"],
-      "hint": "The <ul> tag defines an unordered (bulleted) list."
+      "answer_index": 3,
+      "choices": ["<list>", "<li>", "<ol>", "<ul>"],
+      "hint": "used to create a list of items in no particular order."
     },
     {
       "question_id": 7,
       "question": "Which HTML attribute is used to define inline styles?",
-      "answer_index": 3,
+      "answer_index": 1,
       "choices": ["class", "style", "font", "styles"],
-      "hint": "The 'style' attribute is used to define inline styles directly within an HTML element."
+      "hint": "this attribute is used to define inline styles directly within an HTML element."
     },
     {
       "question_id": 8,
@@ -70,21 +70,21 @@
         "<body bg='yellow'>",
         "<body color='yellow'>"
       ],
-      "hint": "Inline styles can be applied directly to HTML elements using the 'style' attribute. The 'background-color' property sets the background color."
+      "hint": "this set the background color of the entire body of html document"
     },
     {
       "question_id": 9,
       "question": "Which HTML element is used to define important text?",
       "answer_index": 2,
-      "choices": ["<b>", "<strong>", "<important>", "<i>"],
-      "hint": "The <strong> tag is used to define text with strong importance. It renders text in bold by default."
+      "choices": ["<b>", "<important>", "<strong>", "<i>"],
+      "hint": "It renders text in bold by default."
     },
     {
       "question_id": 10,
       "question": "Which HTML attribute specifies a short hint that describes the expected value of an input field?",
       "answer_index": 3,
-      "choices": ["placeholder", "value", "title", "alt"],
-      "hint": "The 'placeholder' attribute provides a hint to the user about what to enter in an input field. It's typically used for text input fields."
+      "choices": ["text", "value", "title", "placeholder"],
+      "hint": "It's typically used for text input fields."
     },
     {
       "question_id": 11,
@@ -96,123 +96,93 @@
         "<input type='check'>",
         "<checkbox>"
       ],
-      "hint": "The <input> tag is used to create an input field, and the 'type' attribute specifies the type of input. To create a checkbox, use 'checkbox' as the value of the 'type' attribute."
+      "hint": "it is used as the value of the 'type' attribute."
     },
+
     {
       "question_id": 12,
-      "question": "What does HTML stand for?",
-      "answer_index": 0,
-      "choices": [
-        "Hyper Text Markup Language",
-        "Hyperlinks and Text Markup Language",
-        "Home Tool Markup Language",
-        "Hyperlink Transfer Markup Language"
-      ],
-      "hint": "HTML stands for Hyper Text Markup Language, which is used to create web pages."
+      "question": "Which HTML tag is used to define the footer of a webpage or a section?",
+      "answer_index": 2,
+      "choices": ["<bottom>", "<end>", "<footer>", "<section>"],
+      "hint": "It typically contains information about the author, copyright information, etc."
     },
     {
       "question_id": 13,
-      "question": "Which HTML tag is used to define the footer of a webpage or a section?",
+      "question": "In HTML, which attribute is used to specify that an input field must be filled out?",
       "answer_index": 0,
-      "choices": ["<footer>", "<end>", "<bottom>", "<section>"],
-      "hint": "The <footer> tag defines a footer for a document or a section. It typically contains information about the author, copyright information, etc."
+      "choices": ["required", "mandatory", "validate", "needed"],
+      "hint": "This attribute specifies that an input field must be filled out before submitting the form."
     },
     {
       "question_id": 14,
-      "question": "In HTML, which attribute is used to specify that an input field must be filled out?",
+      "question": "Which HTML element is used to define the navigation links in HTML5?",
       "answer_index": 1,
-      "choices": ["required", "mandatory", "validate", "needed"],
-      "hint": "The 'required' attribute specifies that an input field must be filled out before submitting the form."
+      "choices": ["<navigation>", "<nav>", "<navbar>", "<ul>"],
+      "hint": "It typically contains a list of links to other pages or sections within the same page."
     },
     {
       "question_id": 15,
-      "question": "Which HTML element is used to define the navigation links in HTML5?",
+      "question": "What is the correct HTML for inserting a line break?",
       "answer_index": 2,
-      "choices": ["<nav>", "<navigation>", "<navbar>", "<ul>"],
-      "hint": "The <nav> tag is used to define navigation links in HTML5. It typically contains a list of links to other pages or sections within the same page."
+      "choices": ["<lb>", "<break>", "<br>", "<linebreak>"],
+      "hint": " It's a self-closing tag."
     },
     {
       "question_id": 16,
-      "question": "What is the correct HTML for inserting a line break?",
-      "answer_index": 0,
-      "choices": ["<br>", "<break>", "<lb>", "<linebreak>"],
-      "hint": "The <br> tag is used to insert a single line break. It's a self-closing tag."
+      "question": "Which HTML element is used to define a table row?",
+      "answer_index": 3,
+      "choices": ["<table>", "<th>", "<td>", "<tr>"],
+      "hint": "The element used to define a table row is often nested within the <table> element."
     },
     {
       "question_id": 17,
-      "question": "Which HTML element is used to define a table row?",
-      "answer_index": 1,
-      "choices": ["<table>", "<tr>", "<td>", "<th>"],
-      "hint": "The <tr> tag is used to define a table row in HTML. It's used within the <table> element."
-    },
-    {
-      "question_id": 18,
       "question": "Which HTML element is used to define a cell in a table?",
       "answer_index": 2,
       "choices": ["<cell>", "<table>", "<td>", "<th>"],
-      "hint": "The <td> tag is used to define a standard cell in a."
+      "hint": "it specifically designed to define a standard cell within a table."
+    },
+    {
+      "question_id": 18,
+      "question": "Which HTML element is used to define a header for a webpage or a section?",
+      "answer_index": 0,
+      "choices": ["<header>", "<h1>", "<head>", "<h2>"],
+      "hint": "It typically contains introductory content or navigation links."
     },
     {
       "question_id": 19,
-      "question": "Which HTML element is used to define a header for a webpage or a section?",
+      "question": "What is the correct HTML for creating a hyperlink to an email address?",
       "answer_index": 3,
-      "choices": ["<header>", "<h1>", "<head>", "<h2>"],
-      "hint": "The <header> tag defines a header for a document or a section. It typically contains introductory content or navigation links."
+      "choices": [
+        "<a href='info@example.com'>Email Us</a>",
+        "<mail>info@example.com</mail>",
+        "<email>info@example.com</email>",
+        "<a href='mailto:info@example.com'>Email Us</a>"
+      ],
+      "hint": "The action to compose an email when clicking a link on a webpage."
     },
     {
       "question_id": 20,
-      "question": "What is the correct HTML for creating a hyperlink to an email address?",
-      "answer_index": 2,
-      "choices": [
-        "<a href='mailto:info@example.com'>Email Us</a>",
-        "<mail>info@example.com</mail>",
-        "<a href='info@example.com'>Email Us</a>",
-        "<email>info@example.com</email>"
-      ],
-      "hint": "To create a hyperlink to an email address, use the 'mailto:' protocol followed by the email address within the 'href' attribute."
-    },
-    {
-      "question_id": 21,
       "question": "Which HTML element is used to define the title of a webpage?",
       "answer_index": 0,
       "choices": ["<title>", "<h1>", "<head>", "<heading>"],
-      "hint": "The <title> tag is used to define the title of a webpage, which appears in the browser's title bar or tab."
+      "hint": "the element is responsible for providing this information to the browser."
     },
+
     {
-      "question_id": 22,
-      "question": "In HTML, which tag is used to define an unordered list?",
-      "answer_index": 2,
-      "choices": ["<ul>", "<ol>", "<list>", "<li>"],
-      "hint": "The <ul> tag is used to define an unordered list in HTML. Items in this list are typically displayed with bullet points."
-    },
-    {
-      "question_id": 23,
+      "question_id": 21,
       "question": "What is the correct HTML for creating a hyperlink to another webpage?",
-      "answer_index": 0,
+      "answer_index": 1,
       "choices": [
-        "<a href='https://www.example.com'>Visit our Website</a>",
         "<a url='https://www.example.com'>Visit our Website</a>",
+        "<a href='https://www.example.com'>Visit our Website</a>",
         "<a>https://www.example.com</a>",
         "<a name='https://www.example.com'>Visit our Website</a>"
       ],
-      "hint": "To create a hyperlink to another webpage, use the 'href' attribute with the URL of the destination page."
+      "hint": "that specifies the URL of the destination webpage."
     },
+
     {
-      "question_id": 24,
-      "question": "Which HTML element is used to define important text?",
-      "answer_index": 2,
-      "choices": ["<b>", "<strong>", "<important>", "<i>"],
-      "hint": "The <strong> tag is used to define text with strong importance. It renders text in bold by default."
-    },
-    {
-      "question_id": 25,
-      "question": "In HTML, which tag is used to define a table row?",
-      "answer_index": 1,
-      "choices": ["<table>", "<tr>", "<td>", "<th>"],
-      "hint": "The <tr> tag is used to define a table row in HTML. It's used within the <table> element."
-    },
-    {
-      "question_id": 26,
+      "question_id": 22,
       "question": "What does the HTML acronym DOCTYPE stand for?",
       "answer_index": 3,
       "choices": [
@@ -221,107 +191,107 @@
         "Document Timetable",
         "Document Type Declaration"
       ],
-      "hint": "DOCTYPE stands for Document Type Declaration. It informs the web browser about the type and version of HTML used in a web document."
+      "hint": "It informs the web browser about the type and version of HTML used in a web document."
     },
     {
-      "question_id": 27,
+      "question_id": 23,
       "question": "In HTML, which attribute is used to specify the URL of the image to be displayed?",
       "answer_index": 1,
       "choices": ["image", "src", "url", "link"],
-      "hint": "The 'src' attribute is used to specify the URL of the image to be displayed in an <img> tag."
+      "hint": " it indicate the location or URL of the image file."
     },
     {
-      "question_id": 28,
+      "question_id": 24,
       "question": "Which HTML element is used to define the structure of an HTML document, including metadata and links to external resources?",
-      "answer_index": 2,
-      "choices": ["<body>", "<head>", "<html>", "<title>"],
-      "hint": "The <head> element is used to define the structure of an HTML document, including metadata, links to external resources, and more."
+      "answer_index": 0,
+      "choices": ["<head>", "<body>", "<html>", "<title>"],
+      "hint": "that encompasses the entire HTML document and includes essential information"
     },
     {
-      "question_id": 29,
+      "question_id": 25,
       "question": "In HTML, which tag is used to create a numbered list?",
       "answer_index": 1,
       "choices": ["<ul>", "<ol>", "<list>", "<li>"],
-      "hint": "The <ol> tag is used to create an ordered (numbered) list in HTML."
+      "hint": "items are automatically numbered sequentially."
     },
     {
-      "question_id": 30,
+      "question_id": 26,
       "question": "Which HTML element is used to define the structure of a paragraph?",
-      "answer_index": 0,
-      "choices": ["<p>", "<paragraph>", "<para>", "<text>"],
-      "hint": "The <p> tag is used to define a paragraph in HTML. Text enclosed within <p> tags is treated as a separate paragraph by web browsers."
+      "answer_index": 3,
+      "choices": ["<text>", "<paragraph>", "<para>", "<p>"],
+      "hint": "this tags is treated as a separate paragraph by web browsers."
     },
 
     {
-      "question_id": 31,
+      "question_id": 27,
       "question": "Which HTML element is used to define a hyperlink?",
       "answer_index": 0,
       "choices": ["<a>", "<link>", "<href>", "<hyperlink>"],
-      "hint": "The <a> tag is used to define a hyperlink in HTML. It is commonly used to link to another webpage or resource."
+      "hint": "This element is commonly used to link to another webpage or resource."
     },
     {
-      "question_id": 32,
+      "question_id": 28,
       "question": "In HTML, which tag is used to define a horizontal line?",
       "answer_index": 1,
       "choices": ["<line>", "<hr>", "<horizontal>", "<linebreak>"],
-      "hint": "The <hr> tag is used to define a horizontal line in HTML. It is often used to separate content."
+      "hint": "It is often used to separate content."
     },
     {
-      "question_id": 33,
+      "question_id": 29,
       "question": "What is the correct HTML for inserting an image?",
       "answer_index": 3,
       "choices": [
-        "<img src='image.jpg' alt='MyImage'>",
+        "<img src='image.jpg''MyImage'>",
         "<img alt='MyImage'>image.jpg</img>",
         "<image src='image.jpg' alt='MyImage'>",
         "<img src='image.jpg' alt='MyImage'>"
       ],
-      "hint": "The <img> tag is used to insert an image in HTML. The 'src' attribute specifies the URL of the image, and the 'alt' attribute provides alternative text for accessibility."
+      "hint": "It typically requires an attribute specifying the image file's location or URL."
     },
     {
-      "question_id": 34,
+      "question_id": 30,
       "question": "Which HTML element is used to define a section of a document, such as a chapter?",
       "answer_index": 0,
       "choices": ["<section>", "<div>", "<article>", "<header>"],
-      "hint": "The <section> tag is used to define a section of a document in HTML. It is typically used to group related content."
+      "hint": "It is typically used to group related content."
     },
     {
-      "question_id": 35,
+      "question_id": 31,
       "question": "What is the correct HTML for creating a dropdown list?",
       "answer_index": 1,
       "choices": ["<list>", "<select>", "<dropdown>", "<options>"],
-      "hint": "The <select> tag is used to create a dropdown list in HTML. It is often paired with <option> tags to define the options within the list."
+      "hint": "that allows users to select one or more options from a list"
     },
     {
-      "question_id": 36,
+      "question_id": 32,
       "question": "In HTML, which tag is used to define an italic text?",
       "answer_index": 2,
-      "choices": ["<italic>", "<i>", "<em>", "<italics>"],
-      "hint": "The <i> tag is used to define italic text in HTML. It is typically used for stylistic purposes."
+      "choices": ["<italic>", "<em>", "<i>", "<italics>"],
+      "hint": "It is a formatting tag which is typically used for stylistic purposes."
     },
     {
-      "question_id": 37,
+      "question_id": 33,
       "question": "Which HTML attribute specifies the URL of the page the link goes to?",
       "answer_index": 0,
       "choices": ["href", "src", "link", "url"],
-      "hint": "The 'href' attribute is used to specify the URL of the page the link goes to in HTML <a> tags."
+      "hint": "the attribute within the <a> tag that determines where the link navigates to when clicked."
     },
     {
-      "question_id": 38,
+      "question_id": 34,
       "question": "In HTML, which tag is used to define a list item?",
       "answer_index": 3,
       "choices": ["<ul>", "<ol>", "<list>", "<li>"],
-      "hint": "The <li> tag is used to define a list item in HTML, whether in an ordered (numbered) list or an unordered (bulleted) list."
+      "hint": "the tag that is used to represent individual items within a list, whether it's an ordered list, unordered list, or definition list."
     },
     {
-      "question_id": 39,
+      "question_id": 35,
       "question": "Which HTML element is used to define a clickable button?",
-      "answer_index": 0,
-      "choices": ["<button>", "<click>", "<input>", "<submit>"],
-      "hint": "The <button> tag is used to define a clickable button in HTML. It can be used to submit forms or trigger JavaScript functions."
+      "answer_index": 1,
+      "choices": ["<click>", "<button>", "<input>", "<submit>"],
+      "hint": "It can be used to submit forms or trigger JavaScript functions."
     },
     {
-      "question_id": 40,
+      "question_id": 36,
       "question": "What is the correct HTML for creating a text input field?",
       "answer_index": 2,
       "choices": [
@@ -330,110 +300,38 @@
         "<input type='textfield'>",
         "<textinput>"
       ],
-      "hint": "The <input> tag is used to create an input field in HTML. The 'type' attribute specifies the type of input, such as 'text' for a text input field."
+      "hint": "it used to create an input field where users can type text."
     },
 
     {
-      "question_id": 41,
-      "question": "Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?",
-      "answer_index": 2,
-      "choices": ["title", "src", "alt", "href"],
-      "hint": "The 'alt' attribute provides alternative text for images. It is important for accessibility and SEO purposes."
-    },
-    {
-      "question_id": 42,
-      "question": "In HTML, which tag is used to create a line break?",
-      "answer_index": 0,
-      "choices": ["<br>", "<lb>", "<break>", "<newline>"],
-      "hint": "The <br> tag is used to insert a line break in HTML. It is a self-closing tag."
-    },
-    {
-      "question_id": 43,
+      "question_id": 37,
       "question": "What is the correct HTML for inserting a comment?",
-      "answer_index": 2,
+      "answer_index": 0,
       "choices": [
-        "<!--This is a comment-->",
-        "<!--This is a comment>",
         "<!-- This is a comment -->",
+        "<!--This is a comment>",
+        "<!--This is a comment-->",
         "<comment>This is a comment</comment>"
       ],
-      "hint": "Comments in HTML are written between <!-- and -->. They are not displayed on the webpage but can be useful for developers to add notes."
+      "hint": "They are not displayed on the webpage but can be useful for developers to add notes."
     },
+
     {
-      "question_id": 44,
-      "question": "Which HTML element is used to define the navigation links in HTML5?",
-      "answer_index": 2,
-      "choices": ["<nav>", "<navigation>", "<navbar>", "<ul>"],
-      "hint": "The <nav> tag is used to define navigation links in HTML5. It typically contains a list of links to other pages or sections within the same page."
-    },
-    {
-      "question_id": 45,
-      "question": "In HTML, which attribute specifies a short hint that describes the expected value of an input field?",
-      "answer_index": 0,
-      "choices": ["placeholder", "value", "title", "alt"],
-      "hint": "The 'placeholder' attribute provides a hint to the user about what to enter in an input field. It's typically used for text input fields."
-    },
-    {
-      "question_id": 46,
-      "question": "What does HTML stand for?",
-      "answer_index": 0,
-      "choices": [
-        "Hyper Text Markup Language",
-        "Hyperlinks and Text Markup Language",
-        "Home Tool Markup Language",
-        "Hyperlink Transfer Markup Language"
-      ],
-      "hint": "HTML stands for Hyper Text Markup Language, which is used to create web pages."
-    },
-    {
-      "question_id": 47,
-      "question": "Which HTML element is used to define the footer of a webpage or a section?",
-      "answer_index": 0,
-      "choices": ["<footer>", "<end>", "<bottom>", "<section>"],
-      "hint": "The <footer> tag defines a footer for a document or a section. It typically contains information about the author, copyright information, etc."
-    },
-    {
-      "question_id": 48,
-      "question": "In HTML, which attribute is used to specify that an input field must be filled out?",
-      "answer_index": 1,
-      "choices": ["required", "mandatory", "validate", "needed"],
-      "hint": "The 'required' attribute specifies that an input field must be filled out before submitting the form."
-    },
-    {
-      "question_id": 49,
-      "question": "Which HTML element is used to define a clickable button?",
-      "answer_index": 0,
-      "choices": ["<button>", "<click>", "<input>", "<submit>"],
-      "hint": "The <button> tag is used to define a clickable button in HTML. It can be used to submit forms or trigger JavaScript functions."
-    },
-    {
-      "question_id": 50,
-      "question": "What is the correct HTML for creating a checkbox?",
-      "answer_index": 0,
-      "choices": [
-        "<input type='checkbox'>",
-        "<check>",
-        "<input type='check'>",
-        "<checkbox>"
-      ],
-      "hint": "The <input> tag is used to create an input field, and the 'type' attribute specifies the type of input. To create a checkbox, use 'checkbox' as the value of the 'type' attribute."
-    },
-    {
-      "question_id": 51,
+      "question_id": 38,
       "question": "Which HTML element is used to define metadata about an HTML document?",
       "answer_index": 1,
       "choices": ["<head>", "<meta>", "<title>", "<html>"],
-      "hint": "The <meta> tag is used to define metadata about an HTML document, such as character set, description, keywords, etc."
+      "hint": "it define metadata about an HTML document, such as character set, description, keywords, etc."
     },
     {
-      "question_id": 52,
+      "question_id": 39,
       "question": "In HTML, which attribute is used to specify the width of an image?",
       "answer_index": 3,
-      "choices": ["size", "width", "img-width", "style"],
-      "hint": "The 'width' attribute is used to specify the width of an image in HTML."
+      "choices": ["size", "style", "img-width", "width"],
+      "hint": "This attribute is used to specify the width of an image in HTML."
     },
     {
-      "question_id": 53,
+      "question_id": 40,
       "question": "What is the correct HTML for creating a hyperlink that opens in a new tab?",
       "answer_index": 2,
       "choices": [
@@ -442,83 +340,51 @@
         "<a href='url' target='_blank'>Link Text</a>",
         "<a href='url' target='blank'>Link Text</a>"
       ],
-      "hint": "To make a hyperlink open in a new tab, use the 'target' attribute with the value '_blank' in the <a> tag."
+      "hint": "the attribute used within the <a> tag to specify that the hyperlink should open in a new browsing context."
     },
     {
-      "question_id": 54,
+      "question_id": 41,
       "question": "Which HTML element is used to define the main content of an HTML document?",
       "answer_index": 0,
       "choices": ["<main>", "<body>", "<content>", "<article>"],
-      "hint": "The <main> tag is used to define the main content of an HTML document. It typically contains the central content of the webpage."
+      "hint": "It typically contains the central content of the webpage."
     },
+
     {
-      "question_id": 55,
-      "question": "In HTML, which tag is used to define a hyperlink?",
-      "answer_index": 0,
-      "choices": ["<a>", "<link>", "<href>", "<hyperlink>"],
-      "hint": "The <a> tag is used to define a hyperlink in HTML. It is commonly used to link to another webpage or resource."
-    },
-    {
-      "question_id": 56,
+      "question_id": 42,
       "question": "What does the HTML acronym CSS stand for?",
-      "answer_index": 2,
+      "answer_index": 1,
       "choices": [
         "Cascading Sheet Style",
         "Cascading Style Sheet",
         "Cascading Style Syntax",
         "Cascading Sheet Syntax"
       ],
-      "hint": "CSS stands for Cascading Style Sheet. It is used for styling HTML documents."
+      "hint": "It is used for styling HTML documents."
     },
     {
-      "question_id": 57,
+      "question_id": 43,
       "question": "Which HTML element is used to define an input field for entering a date?",
       "answer_index": 3,
       "choices": [
-        "<input type='date'>",
+        "<calendar>",
         "<date>",
         "<input type='calendar'>",
-        "<calendar>"
+        "<input type='date'>"
       ],
-      "hint": "The <input> tag is used to create input fields in HTML. To create an input field for entering a date, use the 'type' attribute with the value 'date'."
+      "hint": "It's one of the newer input types introduced in HTML5."
     },
+
     {
-      "question_id": 58,
-      "question": "In HTML, which tag is used to define the title of a webpage?",
-      "answer_index": 0,
-      "choices": ["<title>", "<h1>", "<head>", "<heading>"],
-      "hint": "The <title> tag is used to define the title of a webpage, which appears in the browser's title bar or tab."
-    },
-    {
-      "question_id": 59,
+      "question_id": 44,
       "question": "What is the correct HTML for creating a table?",
-      "answer_index": 1,
-      "choices": ["<table>", "<table></table>", "<tab>", "<tbl>"],
-      "hint": "The <table> tag is used to create a table in HTML. It should be enclosed between opening and closing tags."
-    },
-    {
-      "question_id": 60,
-      "question": "Which HTML element is used to define an unordered list?",
       "answer_index": 2,
-      "choices": ["<ul>", "<ol>", "<list>", "<li>"],
-      "hint": "The <ul> tag is used to define an unordered list in HTML. Items in this list are typically displayed with bullet points."
+      "choices": ["<table>", "<tab>", "<table></table>", "<tbl>"],
+      "hint": "It should be enclosed between opening and closing tags."
     },
+
     {
-      "question_id": 61,
-      "question": "Which HTML element is used to define a section of navigation links?",
-      "answer_index": 0,
-      "choices": ["<nav>", "<ul>", "<header>", "<footer>"],
-      "hint": "The <nav> element is used to define a section of navigation links in HTML. It typically contains links to various parts of a website."
-    },
-    {
-      "question_id": 62,
-      "question": "In HTML, which tag is used to define a paragraph?",
-      "answer_index": 3,
-      "choices": ["<p>", "<para>", "<paragraph>", "<text>"],
-      "hint": "The <p> tag is used to define a paragraph in HTML. Text enclosed within <p> tags is treated as a separate paragraph by web browsers."
-    },
-    {
-      "question_id": 63,
+      "question_id": 45,
       "question": "What is the correct HTML for creating a button?",
       "answer_index": 0,
       "choices": [
@@ -527,351 +393,83 @@
         "<input type='button' value='Click Me'>",
         "<a href='#'>Click Me</a>"
       ],
-      "hint": "The <button> tag is used to create a clickable button in HTML. It can be styled and contains text or other elements."
+      "hint": "It can be styled and contains text or other elements."
     },
+
     {
-      "question_id": 64,
-      "question": "Which HTML element is used to define a hyperlink?",
-      "answer_index": 1,
-      "choices": ["<a>", "<link>", "<href>", "<anchor>"],
-      "hint": "The <a> tag is used to define a hyperlink in HTML. It is commonly used to link to another webpage or resource."
-    },
-    {
-      "question_id": 65,
-      "question": "In HTML, which tag is used to define a list item?",
-      "answer_index": 3,
-      "choices": ["<ul>", "<ol>", "<list>", "<li>"],
-      "hint": "The <li> tag is used to define a list item in HTML, whether in an ordered (numbered) list or an unordered (bulleted) list."
-    },
-    {
-      "question_id": 66,
-      "question": "What is the correct HTML for creating an email link?",
-      "answer_index": 2,
-      "choices": [
-        "<mail>info@example.com</mail>",
-        "<a href='mailto:info@example.com'>Email Us</a>",
-        "<a href='info@example.com'>Email Us</a>",
-        "<email>info@example.com</email>"
-      ],
-      "hint": "To create an email link in HTML, use the 'mailto:' protocol followed by the email address within the 'href' attribute of the <a> tag."
-    },
-    {
-      "question_id": 67,
-      "question": "Which HTML element is used to define a table row?",
-      "answer_index": 1,
-      "choices": ["<table>", "<tr>", "<td>", "<th>"],
-      "hint": "The <tr> tag is used to define a table row in HTML. It is used within the <table> element to define rows of cells."
-    },
-    {
-      "question_id": 68,
-      "question": "What is the correct HTML for adding a background color to a webpage?",
-      "answer_index": 0,
-      "choices": [
-        "<body style='background-color:yellow;'>",
-        "<background>yellow</background>",
-        "<body bg='yellow'>",
-        "<body color='yellow'>"
-      ],
-      "hint": "Inline styles can be applied directly to HTML elements using the 'style' attribute. The 'background-color' property sets the background color."
-    },
-    {
-      "question_id": 69,
-      "question": "In HTML, which attribute specifies the alternative text for an image?",
-      "answer_index": 2,
-      "choices": ["title", "src", "alt", "href"],
-      "hint": "The 'alt' attribute is used to specify alternative text for an image in HTML. It is displayed if the image cannot be loaded or for accessibility purposes."
-    },
-    {
-      "question_id": 70,
+      "question_id": 46,
       "question": "Which HTML element is used to define a heading?",
       "answer_index": 1,
-      "choices": ["<header>", "<h1>", "<heading>", "<h2>"],
-      "hint": "Heading elements in HTML are defined with the <h1> to <h6> tags. The <h1> tag defines the most important heading, while <h6> defines the least important."
-    },
-    {
-      "question_id": 71,
-      "question": "What does HTML stand for?",
-      "answer_index": 0,
-      "choices": [
-        "Hyper Text Markup Language",
-        "Hyperlinks and Text Markup Language",
-        "Home Tool Markup Language",
-        "Hyperlink Transfer Markup Language"
-      ],
-      "hint": "HTML stands for Hyper Text Markup Language. It is used to create web pages."
-    },
-    {
-      "question_id": 72,
-      "question": "Which HTML element is used to define the title of a webpage?",
-      "answer_index": 0,
-      "choices": ["<title>", "<h1>", "<head>", "<heading>"],
-      "hint": "The <title> tag is used to define the title of a webpage, which appears in the browser's title bar or tab."
-    },
-    {
-      "question_id": 73,
-      "question": "In HTML, which tag is used to define an ordered list?",
-      "answer_index": 1,
-      "choices": ["<ul>", "<ol>", "<list>", "<li>"],
-      "hint": "The <ol> tag is used to define an ordered (numbered) list in HTML. Items in this list are typically numbered."
-    },
-    {
-      "question_id": 74,
-      "question": "What is the correct HTML for creating a hyperlink to another webpage?",
-      "answer_index": 0,
-      "choices": [
-        "<a href='https://www.example.com'>Visit our Website</a>",
-        "<a url='https://www.example.com'>Visit our Website</a>",
-        "<a>https://www.example.com</a>",
-        "<a name='https://www.example.com'>Visit our Website</a>"
-      ],
-      "hint": "To create a hyperlink to another webpage, use the 'href' attribute with the URL of the destination page within the <a> tag."
-    },
-    {
-      "question_id": 75,
-      "question": "Which HTML element is used to define a division or a section in an HTML document?",
-      "answer_index": 1,
-      "choices": ["<div>", "<section>", "<block>", "<container>"],
-      "hint": "The <div> tag is a generic container element used to define divisions or sections within an HTML document. It is commonly used for styling and layout purposes."
+      "choices": ["<header>", "<h1>", "<heading>", "<title>"],
+      "hint": "the element specifically designed for defining headings in HTML documents."
     },
 
     {
-      "question_id": 76,
-      "question": "In HTML, which attribute is used to specify the URL of the page the link goes to?",
-      "answer_index": 0,
-      "choices": ["href", "src", "link", "url"],
-      "hint": "The 'href' attribute is used to specify the URL of the page the link goes to in HTML <a> tags."
+      "question_id": 47,
+      "question": "Which HTML element is used to define a division or a section in an HTML document?",
+      "answer_index": 2,
+      "choices": ["<block>", "<section>", "<div>", "<container>"],
+      "hint": " It is commonly used for styling and layout purposes."
     },
+
     {
-      "question_id": 77,
-      "question": "Which HTML element is used to define important text?",
-      "answer_index": 1,
-      "choices": ["<b>", "<strong>", "<i>", "<em>"],
-      "hint": "The <strong> tag is used to define text with strong importance. It renders text in bold by default."
-    },
-    {
-      "question_id": 78,
-      "question": "In HTML, which tag is used to define a table?",
-      "answer_index": 0,
-      "choices": ["<table>", "<tab>", "<tbl>", "<t>"],
-      "hint": "The <table> tag is used to define a table in HTML. It should contain one or more <tr>, <th>, and <td> elements."
-    },
-    {
-      "question_id": 79,
-      "question": "What is the correct HTML for creating a checkbox?",
-      "answer_index": 0,
-      "choices": [
-        "<input type='checkbox'>",
-        "<check>",
-        "<input type='check'>",
-        "<checkbox>"
-      ],
-      "hint": "The <input> tag is used to create an input field in HTML. To create a checkbox, use 'checkbox' as the value of the 'type' attribute."
-    },
-    {
-      "question_id": 80,
+      "question_id": 48,
       "question": "Which HTML element is used to define the structure of an HTML document?",
-      "answer_index": 2,
-      "choices": ["<body>", "<head>", "<html>", "<title>"],
-      "hint": "The <html> tag is used to define the structure of an HTML document. It contains all the content of the document, including the <head> and <body> sections."
-    },
-    {
-      "question_id": 81,
-      "question": "In HTML, which tag is used to define a horizontal line?",
-      "answer_index": 1,
-      "choices": ["<line>", "<hr>", "<rule>", "<br>"],
-      "hint": "The <hr> tag is used to define a horizontal line (or horizontal rule) in HTML. It is a self-closing tag."
-    },
-    {
-      "question_id": 82,
-      "question": "What does the HTML acronym DOCTYPE stand for?",
       "answer_index": 3,
-      "choices": [
-        "Document Type",
-        "Document Template",
-        "Document Timetable",
-        "Document Type Declaration"
-      ],
-      "hint": "DOCTYPE stands for Document Type Declaration. It informs the web browser about the type and version of HTML used in a web document."
-    },
-    {
-      "question_id": 83,
-      "question": "Which HTML element is used to define the header for a webpage or a section?",
-      "answer_index": 0,
-      "choices": ["<header>", "<head>", "<h1>", "<title>"],
-      "hint": "The <header> tag is used to define a header for a webpage or a section. It typically contains introductory content or navigation links."
-    },
-    {
-      "question_id": 84,
-      "question": "In HTML, which tag is used to define an italic text?",
-      "answer_index": 2,
-      "choices": ["<italic>", "<i>", "<em>", "<italics>"],
-      "hint": "The <i> tag is used to define italic text in HTML. It is often used to indicate text in a different voice, mood, or emphasis."
-    },
-    {
-      "question_id": 85,
-      "question": "What is the correct HTML for inserting a line break?",
-      "answer_index": 0,
-      "choices": ["<br>", "<linebreak>", "<lb>", "<break>"],
-      "hint": "The <br> tag is used to insert a line break in HTML. It is a self-closing tag."
-    },
-    {
-      "question_id": 86,
-      "question": "Which HTML element is used to define an input field for entering a date?",
-      "answer_index": 0,
-      "choices": [
-        "<input type='date'>",
-        "<date>",
-        "<input type='calendar'>",
-        "<calendar>"
-      ],
-      "hint": "The <input> tag is used to create input fields in HTML. To create an input field for entering a date, use the 'type' attribute with the value 'date'."
-    },
-    {
-      "question_id": 87,
-      "question": "In HTML, which attribute specifies the URL of the image to be displayed?",
-      "answer_index": 1,
-      "choices": ["image", "src", "url", "link"],
-      "hint": "The 'src' attribute is used to specify the URL of the image to be displayed in an <img> tag."
-    },
-    {
-      "question_id": 88,
-      "question": "What is the correct HTML for creating a dropdown list?",
-      "answer_index": 1,
-      "choices": ["<list>", "<select>", "<dropdown>", "<options>"],
-      "hint": "The <select> tag is used to create a dropdown list in HTML. It is often paired with <option> tags to define the options within the list."
-    },
-    {
-      "question_id": 89,
-      "question": "Which HTML element is used to define a clickable button?",
-      "answer_index": 0,
-      "choices": ["<button>", "<click>", "<input>", "<submit>"],
-      "hint": "The <button> tag is used to define a clickable button in HTML. It can be used to submit forms or trigger JavaScript functions."
-    },
-    {
-      "question_id": 90,
-      "question": "What is the correct HTML for creating a text input field?",
-      "answer_index": 2,
-      "choices": [
-        "<input type='text'>",
-        "<textfield>",
-        "<input type='textfield'>",
-        "<textinput>"
-      ],
-      "hint": "The <input> tag is used to create an input field in HTML. The 'type' attribute specifies the type of input, such as 'text' for a text input field."
+      "choices": ["<body>", "<head>", "<title>", "<html>"],
+      "hint": "It contains all the content of the document, including the <head> and <body> sections."
     },
 
     {
-      "question_id": 91,
-      "question": "In HTML, which tag is used to define a list item?",
-      "answer_index": 3,
-      "choices": ["<ul>", "<ol>", "<list>", "<li>"],
-      "hint": "The <li> tag is used to define a list item in HTML, whether in an ordered (numbered) list or an unordered (bulleted) list."
+      "question_id": 49,
+      "question": "Which of the following attribute is used to provide a unique name to an element?",
+      "answer_index": 1,
+      "choices": ["class", "id", "type", "None of the above"],
+      "hint": "It allocates the unique identifier which can be used by the JavaScript and CSS to perform certain tasks."
     },
+
     {
-      "question_id": 92,
-      "question": "What is the correct HTML for creating a hyperlink to another webpage?",
+      "question_id": 50,
+      "question": "Which of the following HTML tag is used to display the text with scrolling effect?",
       "answer_index": 0,
-      "choices": [
-        "<a href='https://www.example.com'>Visit our Website</a>",
-        "<a url='https://www.example.com'>Visit our Website</a>",
-        "<a>https://www.example.com</a>",
-        "<a name='https://www.example.com'>Visit our Website</a>"
-      ],
-      "hint": "To create a hyperlink to another webpage, use the 'href' attribute with the URL of the destination page within the <a> tag."
-    },
-    {
-      "question_id": 93,
-      "question": "Which HTML element is used to define a division or a section in an HTML document?",
-      "answer_index": 1,
-      "choices": ["<div>", "<section>", "<block>", "<container>"],
-      "hint": "The <div> tag is a generic container element used to define divisions or sections within an HTML document. It is commonly used for styling and layout purposes."
-    },
-    {
-      "question_id": 94,
-      "question": "In HTML, which attribute is used to specify the URL of the image to be displayed?",
-      "answer_index": 1,
-      "choices": ["image", "src", "url", "link"],
-      "hint": "The 'src' attribute is used to specify the URL of the image to be displayed in an <img> tag."
-    },
-    {
-      "question_id": 95,
-      "question": "What is the correct HTML for creating a dropdown list?",
-      "answer_index": 1,
-      "choices": ["<list>", "<select>", "<dropdown>", "<options>"],
-      "hint": "The <select> tag is used to create a dropdown list in HTML. It is often paired with <option> tags to define the options within the list."
-    },
-    {
-      "question_id": 96,
-      "question": "Which HTML element is used to define a clickable button?",
-      "answer_index": 0,
-      "choices": ["<button>", "<click>", "<input>", "<submit>"],
-      "hint": "The <button> tag is used to define a clickable button in HTML. It can be used to submit forms or trigger JavaScript functions."
-    },
-    {
-      "question_id": 97,
-      "question": "What is the correct HTML for creating a text input field?",
-      "answer_index": 2,
-      "choices": [
-        "<input type='text'>",
-        "<textfield>",
-        "<input type='textfield'>",
-        "<textinput>"
-      ],
-      "hint": "The <input> tag is used to create an input field in HTML. The 'type' attribute specifies the type of input, such as 'text' for a text input field."
-    },
-    {
-      "question_id": 98,
-      "question": "In HTML, which attribute is used to specify the width of an image?",
-      "answer_index": 3,
-      "choices": ["size", "width", "img-width", "style"],
-      "hint": "The 'width' attribute is used to specify the width of an image in HTML."
-    },
-    {
-      "question_id": 99,
-      "question": "Which HTML element is used to define the metadata about an HTML document?",
-      "answer_index": 1,
-      "choices": ["<head>", "<meta>", "<title>", "<html>"],
-      "hint": "The <meta> tag is used to define metadata about an HTML document, such as character set, description, keywords, etc."
-    },
-    {
-      "question_id": 100,
-      "question": "What does the HTML acronym DOCTYPE stand for?",
-      "answer_index": 3,
-      "choices": [
-        "Document Type",
-        "Document Template",
-        "Document Timetable",
-        "Document Type Declaration"
-      ],
-      "hint": "DOCTYPE stands for Document Type Declaration. It informs the web browser about the type and version of HTML used in a web document."
+      "choices": ["<marquee>", "<scroll>", "<div>", "None of the above"],
+      "hint": "it automatically scrolls the image or text in up, down, left, and right direction."
     }
   ],
   "css": [
     {
       "question_id": 1,
-      "question": "Inside which HTML element do we put the CSS?",
-      "answer_index": 1,
-      "choices": ["<css>", "<style>", "<cascading>", "<styleshet>"],
-      "hint": "Usually we wrote like that"
+      "question": "The full form of CSS is:",
+      "answer_index": 0,
+      "choices": [
+        "cascadind style sheet",
+        "coloured special sheets",
+        "color and style sheet",
+        "NOne of the above"
+      ],
+      "hint": "Usually we call like that",
+      "explanation": "CSS stands for Cascading Style Sheets"
     },
     {
       "question_id": 2,
-      "question": "What does CSS stand for?",
+      "question": "How can we change the background color of an element?",
       "answer_index": 0,
       "choices": [
-        "Cascading Style Sheets",
-        "Creative Style Sheets",
-        "Computer Style Sheets",
-        "Colorful Style Sheets"
+        "Background-collor",
+        "color",
+        "Both A&B",
+        "None of the above"
       ],
-      "hint": "Think about the name"
+      "hint": "name it self says that",
+      "explanation": "background-color property is used to change the background color of an element."
     },
     {
       "question_id": 3,
       "question": "Which CSS property is used to change the text color of an element?",
-      "answer_index": 1,
+      "answer_index": 0,
       "choices": ["color", "text-color", "font-color", "text-style"],
-      "hint": "It's a straightforward property"
+      "hint": "It's a straightforward property",
+      "explanation": "The color property is used to change the text color of an element."
     },
     {
       "question_id": 4,
@@ -883,109 +481,106 @@
         "p {font:bold;}",
         "p {style:bold;}"
       ],
-      "hint": "It's about font weight"
+      "hint": "It's about font weight",
+      "explanation": "font-weight "
     },
     {
       "question_id": 5,
-      "question": "How do you insert a comment in a CSS file?",
-      "answer_index": 2,
-      "choices": [
-        "// This is a comment",
-        "/* This is a comment */",
-        "' This is a comment",
-        "<!-- This is a comment -->"
-      ],
-      "hint": "Think about the common syntax for comments"
+      "question": "How can we write  comments in  CSS ",
+      "answer_index": 1,
+      "choices": ["//", "/* */", "#", "<!--  -->"],
+      "hint": "Think about the common syntax for comments",
+      "explanation": "/* */ is used to write comments in CSS."
     },
     {
       "question_id": 6,
-      "question": "Which CSS property is used to control the spacing between lines of text?",
-      "answer_index": 3,
+      "question": "How can we specify the spacing between each letter in a text in CSS?",
+      "answer_index": 1,
       "choices": [
-        "line-height",
-        "spacing-line",
-        "letter-spacing",
-        "line-spacing"
+        "alpha-spacing",
+        "latter-spacing",
+        "character-spacing",
+        "None of the above"
       ],
-      "hint": "It describes the gap between lines"
+      "hint": "It describes the gap between latter",
+      "explanation": "letter-spacing property specifies the spacing between each letter in a text in CSS."
     },
     {
       "question_id": 7,
       "question": "How do you select an element with id 'demo' in CSS?",
-      "answer_index": 1,
+      "answer_index": 0,
       "choices": ["#demo", ".demo", "*demo", "$demo"],
-      "hint": "Think about the syntax for id selection"
+      "hint": "Think about the syntax for id selection",
+      "explanation": "IDs are selected in CSS using # followed by the ID name."
     },
     {
       "question_id": 8,
-      "question": "What does HTML stand for?",
-      "answer_index": 0,
-      "choices": [
-        "Hypertext Markup Language",
-        "Hypertext Modeling Language",
-        "Hypertext Management Language",
-        "Hypertext Manipulation Language"
-      ],
-      "hint": "Focus on the words' meaning"
+      "question": "How can we select an element with a specific Class in CSS?",
+      "answer_index": 1,
+      "choices": ["#", ".", "^", "None of the above"],
+      "hint": "Focus on the words' meaning",
+      "explanation": "Classes are selected in CSS using . followed by the Class name."
     },
     {
       "question_id": 9,
-      "question": "Which HTML attribute is used to define inline styles?",
-      "answer_index": 2,
-      "choices": ["class", "styles", "style", "font"],
-      "hint": "It's often written directly within an element"
+      "question": "Which HTML tag is used to declare internal CSS?",
+      "answer_index": 0,
+      "choices": ["<style>", "<Link>", "<script>", "None of the above"],
+      "hint": "It's often written directly within an element",
+      "explanation": "The HTML <style> tag is used to declare internal CSS."
     },
     {
       "question_id": 10,
       "question": "What is the correct HTML element for inserting a line break?",
-      "answer_index": 3,
+      "answer_index": 2,
       "choices": ["<break>", "<lb>", "<br>", "<line>"],
-      "hint": "It's a common tag for creating line breaks"
+      "hint": "It's a common tag for creating line breaks",
+      "explanation": "The <br> tag inserts a single line break."
     },
     {
       "question_id": 11,
       "question": "Which character is used to indicate an end tag?",
-      "answer_index": 1,
+      "answer_index": 2,
       "choices": ["^", "<", "/", "!"],
-      "hint": "Think about the structure of HTML tags"
+      "hint": "Think about the structure of HTML tags",
+      "explanation": "Hence, / character is used to indicate an end tag."
     },
     {
       "question_id": 12,
-      "question": "How can you make a numbered list?",
-      "answer_index": 2,
-      "choices": ["<ul>", "<ol>", "<li>", "<list>"],
-      "hint": "Think about ordered and unordered lists"
+      "question": "Can negative values be allowed in padding property?",
+      "answer_index": 1,
+      "choices": ["yes", "No", "Depends upon on property", "None of the above"],
+      "hint": "Think about ordered and unordered lists",
+      "explanation": "Padding Property values cannot be negative."
     },
     {
       "question_id": 13,
-      "question": "What does CSS float property do?",
+      "question": "The CSS property used to specify the transparency of an element is?",
       "answer_index": 0,
-      "choices": [
-        "Specifies whether a box should float left, right, or not at all.",
-        "Specifies whether a box should be visible or not.",
-        "Specifies the shape of a box.",
-        "Specifies the width of a box."
-      ],
-      "hint": "Think about the behavior of elements"
+      "choices": ["Opacity", "visibility", "filter", "None of the Above"],
+      "hint": "Think about the behavior of elements",
+      "explanation": "Opacity is used to specify the transparency of an element."
     },
     {
       "question_id": 14,
-      "question": "What is the correct HTML for creating a hyperlink?",
-      "answer_index": 0,
+      "question": "Which of the following are valid ways to represent a colour in CSS?",
+      "answer_index": 3,
       "choices": [
-        "<a href=\"url\">link text</a>",
-        "<a url>link text</a>",
-        "<href>link text</href>",
-        "<link>link text</link>"
+        "A valid color name",
+        "<RGB values",
+        "HEX values",
+        "All of the above"
       ],
-      "hint": "It involves specifying a destination URL"
+      "hint": "we can observe in reprasentation of colors",
+      "explanation": "All of the above options are valid ways to represent a color in CSS."
     },
     {
       "question_id": 15,
       "question": "How do you group selectors?",
-      "answer_index": 3,
+      "answer_index": 0,
       "choices": ["Comma", "Space", "Semicolon", "Comma & Space"],
-      "hint": "Think about combining selectors"
+      "hint": "Think about combining selectors",
+      "explanation": "To group selectors, separate each selector with a comma."
     },
     {
       "question_id": 16,
@@ -997,33 +592,37 @@
         "Specifies the stack order of an element.",
         "Specifies the alignment of the element."
       ],
-      "hint": "Think about layering of elements"
+      "hint": "Think about layering of elements",
+      "explanation": "z-index is the CSS property that controls the stacking order of overlapping elements on a page. "
     },
     {
       "question_id": 17,
       "question": "What is the default value of the position property in CSS?",
       "answer_index": 1,
       "choices": ["absolute", "static", "relative", "fixed"],
-      "hint": "Think about the default behavior of elements"
+      "hint": "Think about the default behavior of elements",
+      "explanation": "The CSS static position is the default value for the position property. It is the position HTML elements have by default."
     },
     {
       "question_id": 18,
       "question": "How do you make a list that lists its items with squares?",
-      "answer_index": 1,
+      "answer_index": 0,
       "choices": [
         "<ul style=\"list-style-type:square;\">",
         "<ol style=\"list-type:square;\">",
         "<ul type=\"square;\">",
         "<ol type=\"square;\">"
       ],
-      "hint": "Think about the list-style property"
+      "hint": "Think about the list-style property",
+      "explanation": "using <ul> and <li> tags and add CSS list-style-type: square style on <ul> element"
     },
     {
       "question_id": 19,
       "question": "Which HTML element is used to define important text?",
-      "answer_index": 2,
+      "answer_index": 0,
       "choices": ["<strong>", "<bold>", "<em>", "<important>"],
-      "hint": "Think about emphasis"
+      "hint": "Think about emphasis",
+      "explanation": "The HTML <strong> element defines text with strong importance. The content inside is typically displayed in bold."
     },
     {
       "question_id": 20,
@@ -1035,45 +634,50 @@
         "line-through: text-decoration;",
         "strike: text;"
       ],
-      "hint": "It's about decoration"
+      "hint": "It's about decoration",
+      "explanation": "To achieve CSS strikethrough, you enable the text-decoration property in the CSS file"
     },
     {
       "question_id": 21,
-      "question": "Which CSS property is used to change the background color of an element?",
-      "answer_index": 0,
-      "choices": ["background-color", "color", "text-color", "background"],
-      "hint": "It specifically targets the element's background"
+      "question": "Which CSS property is used to change the max width of an element?",
+      "answer_index": 2,
+      "choices": [
+        "height property",
+        "max-height property",
+        "max-width property",
+        "None of the above"
+      ],
+      "hint": "It specifically targets the element's width",
+      "explanation": "The max-width property in CSS is used to set the maximum width of the element's content box."
     },
     {
       "question_id": 22,
-      "question": "How do you add a background color for only the text of an element?",
+      "question": "Which CSS property is used to specify different border styles?",
       "answer_index": 2,
-      "choices": [
-        "background-color: text;",
-        "color: background;",
-        "background-color: transparent;",
-        "color: transparent background;"
-      ],
-      "hint": "Focus on making the background transparent"
+      "choices": ["border-style", "border", "both a & b", "None of the above"],
+      "hint": "Focus on making the background transparent",
+      "explanation": " border-style property is used to specify different border styles in CSS."
     },
     {
       "question_id": 23,
       "question": "Which CSS property is used to set the width of an element?",
       "answer_index": 0,
       "choices": ["width", "size", "length", "dimension"],
-      "hint": "It controls the horizontal size of the element"
+      "hint": "It controls the horizontal size of the element",
+      "explanation": "The width property sets the width of an element"
     },
     {
       "question_id": 24,
       "question": "What is the correct CSS syntax for targeting all <h1> elements?",
-      "answer_index": 1,
+      "answer_index": 0,
       "choices": [
         "h1 {style: ...}",
         ".h1 {style: ...}",
-        "h1 {...}",
+        ">h1 {...}",
         "#h1 {...}"
       ],
-      "hint": "Think about element selectors"
+      "hint": "Think about element selectors",
+      "explanation": "for any tags we just use tag name as a reference"
     },
     {
       "question_id": 25,
@@ -1085,33 +689,37 @@
         "It increases the font size of an element",
         "It centers an element horizontally"
       ],
-      "hint": "Think about visibility"
+      "hint": "Think about visibility",
+      "explanation": "display:none removes the element from the document. It does not take up any space."
     },
     {
       "question_id": 26,
       "question": "Which CSS property is used for controlling the size of text?",
-      "answer_index": 3,
+      "answer_index": 2,
       "choices": ["text-size", "size", "font-size", "font"],
-      "hint": "It specifically deals with the text size"
+      "hint": "It specifically deals with the text size",
+      "explanation": "font-size is the CSS property that controls the size of text on a webpage."
     },
     {
       "question_id": 27,
-      "question": "How do you add a border to an element?",
-      "answer_index": 2,
+      "question": "Which of the following property specifies the look and design of an outline?",
+      "answer_index": 0,
       "choices": [
-        "border: 1px solid black;",
-        "outline: 1px solid black;",
-        "border: solid black;",
-        "outline: solid black;"
+        "outline-style",
+        "outline ",
+        "outline-font",
+        "None of the above;"
       ],
-      "hint": "Think about border properties"
+      "hint": "name itself says that answer",
+      "explanation": "The outline-style CSS property is used to set the style of the outline of an element."
     },
     {
       "question_id": 28,
       "question": "Which CSS property is used to change the font of an element?",
-      "answer_index": 2,
+      "answer_index": 0,
       "choices": ["font-family", "text-font", "font", "typeface"],
-      "hint": "It specifically targets the font"
+      "hint": "It specifically targets the font",
+      "explanation": "The font-family property specifies the font for an element."
     },
     {
       "question_id": 29,
@@ -1123,231 +731,249 @@
         "float: center;",
         "position: center;"
       ],
-      "hint": "Think about margin"
+      "hint": "Think about the horizontal alignment",
+      "explanation": "To horizontally center a block element (like <div>), use margin: auto;"
     },
     {
       "question_id": 30,
       "question": "Which CSS property is used to control the space between the elements' border and content?",
       "answer_index": 0,
       "choices": ["padding", "margin", "spacing", "gap"],
-      "hint": "It's about inner space"
+      "hint": "It's about inner space",
+      "explanation": "The CSS padding properties are used to generate space around an element's content, inside of any defined borders."
     },
-    {
-      "question_id": 31,
-      "question": "What does the CSS property 'margin: 0 auto;' do?",
-      "answer_index": 1,
-      "choices": [
-        "It sets the top and bottom margins to 0 and centers the element horizontally.",
-        "It sets the left and right margins to auto, effectively centering the element horizontally.",
-        "It removes all margins from the element.",
-        "It sets the margin of the element to 0 on all sides."
-      ],
-      "hint": "Focus on the effect of 'auto' in margin"
-    },
-    {
-      "question_id": 32,
-      "question": "Which CSS property is used to add shadows to elements?",
-      "answer_index": 3,
-      "choices": ["box-shadow", "element-shadow", "text-shadow", "shadow"],
-      "hint": "Think about the property for casting shadows"
-    },
-    {
-      "question_id": 33,
-      "question": "What does the 'overflow: hidden;' CSS property do?",
-      "answer_index": 0,
-      "choices": [
-        "It clips the content that overflows the element's box.",
-        "It adds a visible scroll bar when the content overflows.",
-        "It hides the element completely.",
-        "It stretches the element to fit the content."
-      ],
-      "hint": "Think about content overflow"
-    },
-    {
-      "question_id": 34,
-      "question": "How do you make a text italic in CSS?",
-      "answer_index": 2,
-      "choices": [
-        "font-style: italic;",
-        "text-decoration: italic;",
-        "font-style: normal; font-weight: italic;",
-        "italic: true;"
-      ],
-      "hint": "It's a specific property for text style"
-    },
-    {
-      "question_id": 35,
-      "question": "Which CSS property is used for controlling the spacing between letters?",
-      "answer_index": 2,
-      "choices": [
-        "spacing-letter",
-        "line-spacing",
-        "letter-spacing",
-        "word-spacing"
-      ],
-      "hint": "It's about individual characters"
-    },
-    {
-      "question_id": 36,
-      "question": "How do you apply a CSS rule to elements with a class name 'example'?",
-      "answer_index": 0,
-      "choices": [
-        ".example {...}",
-        "#example {...}",
-        "<example> {...}",
-        "$example {...}"
-      ],
-      "hint": "Think about class selectors"
-    },
-    {
-      "question_id": 37,
-      "question": "What is the purpose of the CSS property 'position: relative;'?",
-      "answer_index": 3,
-      "choices": [
-        "It fixes the element's position relative to the viewport.",
-        "It positions the element relative to its parent element.",
-        "It removes the element from the normal document flow.",
-        "It positions the element relative to its normal position."
-      ],
-      "hint": "Focus on the relative positioning"
-    },
-    {
-      "question_id": 38,
-      "question": "Which CSS property is used to change the appearance of the mouse cursor?",
-      "answer_index": 0,
-      "choices": ["cursor", "pointer", "mouse-cursor", "hover-cursor"],
-      "hint": "It deals with mouse interaction"
-    },
-    {
-      "question_id": 39,
-      "question": "How do you make a background image not repeat in CSS?",
-      "answer_index": 1,
-      "choices": [
-        "background-repeat: none;",
-        "background-repeat: no-repeat;",
-        "background-repeat: only;",
-        "background-repeat: once;"
-      ],
-      "hint": "Think about repetition of background images"
-    },
-    {
-      "question_id": 40,
-      "question": "Which CSS property is used to control the transparency of an element?",
-      "answer_index": 2,
-      "choices": ["opacity", "visibility", "transparent", "translucency"],
-      "hint": "It's about making elements see-through"
-    },
-    {
-      "question_id": 41,
-      "question": "How do you change the text color when a user hovers over a link?",
-      "answer_index": 3,
-      "choices": [
-        "a:hover {color: red;}",
-        "a:hover {text-color: red;}",
-        "a {hover-color: red;}",
-        "a {color: red;}",
-        "a:hover {color: red;}"
-      ],
-      "hint": "Think about pseudo-classes"
-    },
-    {
-      "question_id": 42,
-      "question": "What does the CSS property 'flex-direction: column;' do?",
-      "answer_index": 0,
-      "choices": [
-        "It arranges flex items vertically in a column.",
-        "It arranges flex items horizontally in a row.",
-        "It arranges flex items in a grid layout.",
-        "It arranges flex items in a reverse column."
-      ],
-      "hint": "Think about flexbox layout direction"
-    },
-    {
-      "question_id": 43,
-      "question": "How do you make a background image fixed (not scroll with the page) in CSS?",
-      "answer_index": 1,
-      "choices": [
-        "background-attachment: fixed;",
-        "background-fixed: true;",
-        "background-scroll: none;",
-        "background-fixed: scroll;"
-      ],
-      "hint": "Focus on the attachment property"
-    },
-    {
-      "question_id": 44,
-      "question": "Which CSS property is used to add rounded corners to an element?",
-      "answer_index": 3,
-      "choices": [
-        "border-radius",
-        "corner-radius",
-        "rounded-corners",
-        "border-style"
-      ],
-      "hint": "Think about shaping element edges"
-    },
-    {
-      "question_id": 45,
-      "question": "How do you specify an element's font size relative to the font size of the parent element?",
-      "answer_index": 2,
-      "choices": [
-        "font-size: relative;",
-        "font-size: inherit;",
-        "font-size: smaller;",
-        "font-size: larger;"
-      ],
-      "hint": "Think about font size inheritance"
-    },
-    {
-      "question_id": 46,
-      "question": "What does the 'box-sizing: border-box;' CSS property do?",
-      "answer_index": 0,
-      "choices": [
-        "It includes padding and border in the element's total width and height.",
-        "It makes the element's box size smaller.",
-        "It hides the element completely.",
-        "It stretches the element to fit the content."
-      ],
-      "hint": "Focus on box model"
-    },
-    {
-      "question_id": 47,
-      "question": "Which CSS property is used to add an underline to text?",
-      "answer_index": 1,
-      "choices": [
-        "underline",
-        "text-decoration",
-        "line-style",
-        "text-underline"
-      ],
-      "hint": "normally we use text-decoration"
-    },
-    {
-      "question_id": 48,
-      "question": "Which CSS property is used to set the minimum width of an element?",
-      "answer_index": 3,
-      "choices": ["min-width", "width-min", "minimum-width", "min-dimension"],
-      "hint": "It's about setting a lower bound on width"
-    },
-    {
-      "question_id": 49,
-      "question": "How do you apply a grayscale filter to an image in CSS?",
-      "answer_index": 1,
-      "choices": [
-        "filter: grayscale(100%);",
-        "grayscale: 100%;",
-        "image-filter: grayscale(100%);",
-        "filter: image-grayscale(100%);"
-      ],
-      "hint": "It involves applying a filter"
-    },
-    {
-      "question_id": 50,
-      "question": "Which CSS property is used to specify the direction of the flexible items?",
-      "answer_index": 0,
-      "choices": ["flex-direction", "direction", "flex-flow", "flex-order"],
-      "hint": "It"
-    }
+    [
+      {
+        "question_id": 31,
+        "question": "What does the CSS property 'margin: 0 auto;' do?",
+        "answer_index": 0,
+        "choices": [
+          "It sets the top and bottom margins to 0 and centers the element horizontally.",
+          "It sets the left and right margins to auto, effectively centering the element horizontally.",
+          "It removes all margins from the element.",
+          "It sets the margin of the element to 0 on all sides."
+        ],
+        "hint": "Focus on the effect of 'auto' in margin",
+        "explanation": "margin: 0 auto is a CSS property that sets the top and bottom margins of an element to 0 and centers it horizontally within its parent element."
+      },
+      {
+        "question_id": 32,
+        "question": "Which CSS property is used to add shadows to box?",
+        "answer_index": 0,
+        "choices": ["box-shadow", "element-shadow", "text-shadow", "shadow"],
+        "hint": "Think about the property for casting shadows",
+        "explanation": "The CSS box-shadow property is used to apply one or more shadows to an element."
+      },
+      {
+        "question_id": 33,
+        "question": "What does the 'overflow: hidden;' CSS property do?",
+        "answer_index": 0,
+        "choices": [
+          "It clips the content that overflows the element's box.",
+          "It adds a visible scroll bar when the content overflows.",
+          "It hides the element completely.",
+          "It stretches the element to fit the content."
+        ],
+        "hint": "Think about content overflow",
+        "explanation": "With the hidden value, the overflow is clipped, and the rest of the content is hidden"
+      },
+      {
+        "question_id": 34,
+        "question": "How do you make a text italic in CSS?",
+        "answer_index": 0,
+        "choices": [
+          "font-style: italic;",
+          "text-decoration: italic;",
+          "font-style: normal; font-weight: italic;",
+          "italic: true;"
+        ],
+        "hint": "It's a specific property for text style",
+        "explanation": "The CSS value italic is used to italicize the text. Syntax: font-style: italic;"
+      },
+      {
+        "question_id": 35,
+        "question": "Which CSS property is used for controlling the spacing between letters?",
+        "answer_index": 2,
+        "choices": [
+          "spacing-letter",
+          "line-spacing",
+          "letter-spacing",
+          "word-spacing"
+        ],
+        "hint": "It's about individual characters",
+        "explanation": "The letter-spacing CSS property sets the horizontal spacing behavior between text characters"
+      },
+      {
+        "question_id": 36,
+        "question": "How do you apply a CSS rule to elements with a class name 'example'?",
+        "answer_index": 0,
+        "choices": [
+          ".example {...}",
+          "#example {...}",
+          "<example> {...}",
+          "$example {...}"
+        ],
+        "hint": "Think about class selectors",
+        "explanation": "(.) selector is used when we deals with classes"
+      },
+      {
+        "question_id": 37,
+        "question": "What is the purpose of the CSS property 'position: relative;'?",
+        "answer_index": 3,
+        "choices": [
+          "It fixes the element's position relative to the viewport.",
+          "It positions the element relative to its parent element.",
+          "It removes the element from the normal document flow.",
+          "It positions the element relative to its normal position."
+        ],
+        "hint": "Focus on the relative positioning",
+        "explanation": "An element with position: relative; is positioned relative to its normal position."
+      },
+      {
+        "question_id": 38,
+        "question": "Which CSS property is used to change the appearance of the mouse cursor?",
+        "answer_index": 0,
+        "choices": ["cursor", "pointer", "mouse-cursor", "hover-cursor"],
+        "hint": "It deals with mouse interaction",
+        "explanation": "You can use the CSS cursor property to achieve this."
+      },
+      {
+        "question_id": 39,
+        "question": "How do you make a background image not repeat in CSS?",
+        "answer_index": 1,
+        "choices": [
+          "background-repeat: none;",
+          "background-repeat: no-repeat;",
+          "background-repeat: only;",
+          "background-repeat: once;"
+        ],
+        "hint": "Think about repetition of background images",
+        "explanation": "we use no-repeat value for not to repeating the backgroundimeage"
+      },
+      {
+        "question_id": 40,
+        "question": "Which CSS property is used to control the transparency of an element?",
+        "answer_index": 0,
+        "choices": ["opacity", "visibility", "transparent", "translucency"],
+        "hint": "It's about making elements see-through",
+        "explanation": "opacity is a property is used define the transparency of an element."
+      },
+      {
+        "question_id": 41,
+        "question": "How do you change the text color when a user hovers over a link?",
+        "answer_index": 0,
+        "choices": [
+          "a:hover {color: red;}",
+          "a:hover {text-color: red;}",
+          "a {hover-color: red;}",
+          "a {color: red;}"
+        ],
+        "hint": "Think about pseudo-classes",
+        "explanation": "it is called hover effect"
+      },
+      {
+        "question_id": 42,
+        "question": "What does the CSS property 'flex-direction: column;' do?",
+        "answer_index": 0,
+        "choices": [
+          "It arranges flex items vertically in a column.",
+          "It arranges flex items horizontally in a row.",
+          "It arranges flex items in a grid layout.",
+          "It arranges flex items in a reverse column."
+        ],
+        "hint": "Think about flexbox layout direction",
+        "explanation": "column value is used to arrange values in a column"
+      },
+      {
+        "question_id": 43,
+        "question": "How do you make a background image fixed (not scroll with the page) in CSS?",
+        "answer_index": 0,
+        "choices": [
+          "background-attachment: fixed;",
+          "background-fixed: true;",
+          "background-scroll: none;",
+          "background-fixed: scroll;"
+        ],
+        "hint": "Focus on the attachment property",
+        "explanation": "To keep your background image fixed, you have to use the background-attachment property with the value Fixed."
+      },
+      {
+        "question_id": 44,
+        "question": "Which CSS property is used to add rounded corners to an element?",
+        "answer_index": 0,
+        "choices": [
+          "border-radius",
+          "corner-radius",
+          "rounded-corners",
+          "border-style"
+        ],
+        "hint": "Think about shaping element edges",
+        "explanation": "normally we use border radius."
+      },
+      {
+        "question_id": 45,
+        "question": "What does the inherit value for a property do ?",
+        "answer_index": 0,
+        "choices": [
+          "inherites the values from the parent",
+          "in valied property name",
+          "both a & b",
+          "none of the above"
+        ],
+        "hint": "Think about inheritance",
+        "explanation": "The inherit property is used to inherit the value of the parent element."
+      },
+      {
+        "question_id": 46,
+        "question": "What does the 'box-sizing: border-box;' CSS property do?",
+        "answer_index": 0,
+        "choices": [
+          "It includes padding and border in the element's total width and height.",
+          "It makes the element's box size smaller.",
+          "It hides the element completely.",
+          "It stretches the element to fit the content."
+        ],
+        "hint": "Focus on box model",
+        "explanation": "The box-sizing property allows us to include the padding and border in an element's total width and height. If you set box-sizing: border-box; on an element, padding and border are included in the width and height: Both divs are the same size now!"
+      },
+      {
+        "question_id": 47,
+        "question": "Which CSS property is used to add an underline to text?",
+        "answer_index": 1,
+        "choices": [
+          "underline",
+          "text-decoration",
+          "line-style",
+          "text-underline"
+        ],
+        "hint": "normally we use text-decoration",
+        "explanation": "To underline text using CSS, you can use the text-decoration property with the value underline ."
+      },
+      {
+        "question_id": 48,
+        "question": "Which CSS property is used to set the minimum width of an element?",
+        "answer_index": 0,
+        "choices": ["min-width", "width-min", "minimum-width", "min-dimension"],
+        "hint": "It's about setting a lower bound on width",
+        "explanation": "The min-width CSS property sets the minimum width of an element."
+      },
+      {
+        "question_id": 49,
+        "question": "In how many ways can CSS be written in ? ",
+        "answer_index": 1,
+        "choices": ["1", "2", "3", "4"],
+        "hint": "you know if you really practiced",
+        "explanation": "CSS can be written in 3 ways: Inline, External, and Internal CSS."
+      },
+      {
+        "question_id": 50,
+        "question": "Which CSS property is used to specify the direction of the flexible items?",
+        "answer_index": 0,
+        "choices": ["flex-direction", "direction", "flex-flow", "flex-order"],
+        "hint": "It",
+        "explanation": "The flex-direction CSS property sets how flex items are placed in the flex container defining the main axis and the direction "
+      }
+    ]
   ],
   "js": [
     {
@@ -1355,19 +981,21 @@
       "question": "Inside which HTML element do we put the JavaScript?",
       "answer_index": 1,
       "choices": ["<javascript>", "<script>", "<scripting>", "<js>"],
-      "hint": "It is the standard tag used for embedding JavaScript code in HTML."
+      "hint": "It is the standard tag used for embedding JavaScript code in HTML.",
+      "explanation": "In HTML, JavaScript code is inserted between <script> and </script> tags."
     },
     {
       "question_id": 2,
       "question": "What is the correct syntax for referring to an external script called 'script.js'?",
-      "answer_index": 2,
+      "answer_index": 1,
       "choices": [
-        "<script src='script.js'>",
         "<script href='script.js'>",
+        "<script src='script.js'>",
         "<script name='script.js'>",
         "<script file='script.js'>"
       ],
-      "hint": "This attribute specifies the URL of the external script file."
+      "hint": "This attribute specifies the URL of the external script file.",
+      "explanation": "To include an external JavaScript file, we can use the script tag with the attribute src . You've already used the src attribute when using images. The value for the src attribute should be the path to your JavaScript file. <script type='text / javascript' src=' path - to - j'vascript - file.js '></script>"
     },
     {
       "question_id": 3,
@@ -1379,45 +1007,50 @@
         "msg('Hello World');",
         "alertBox('Hello World');"
       ],
-      "hint": "The 'alert' function displays a dialog box with a specified message."
+      "hint": "The 'alert' function displays a dialog box with a specified message.",
+      "explanation": "To create an alert in JavaScript, you can use the alert() method. alert('Hello, world!'); When you run the above code, you'll see a pop-up alert box that says 'Hello, world!'."
     },
     {
       "question_id": 4,
       "question": "How do you create a function in JavaScript?",
-      "answer_index": 3,
+      "answer_index": 2,
       "choices": [
         "function:myFunction()",
         "function = myFunction()",
         "function myFunction()",
         "All of the above"
       ],
-      "hint": "This is the standard way of declaring a function in JavaScript."
+      "hint": "This is the standard way of declaring a function in JavaScript.",
+      "explanation": "To create a function in JavaScript, you can use either function declaration or function expression syntax. "
     },
     {
       "question_id": 5,
       "question": "How do you call a function named 'myFunction'?",
-      "answer_index": 2,
+      "answer_index": 3,
       "choices": [
         "call myFunction()",
         "call function myFunction()",
-        "myFunction()",
-        "invoke myFunction()"
+        "invoke myFunction()",
+        "myFunction()"
       ],
-      "hint": "This is the syntax for invoking a function in JavaScript."
+      "hint": "This is the syntax for invoking a function in JavaScript.",
+      "explanation": "To call a function named 'myFunction' in JavaScript, you simply write the function name followed by parentheses (). If the function takes arguments, you would pass them inside the parentheses."
     },
     {
       "question_id": 6,
       "question": "How do you write an IF statement in JavaScript?",
-      "answer_index": 0,
-      "choices": ["if (i == 5)", "if i = 5 then", "if i == 5 then", "if i = 5"],
-      "hint": "This is the correct syntax for writing an 'if' statement in JavaScript."
+      "answer_index": 2,
+      "choices": ["if i = 5 then", "if i == 5 then", "if (i == 5)", "if i = 5"],
+      "hint": "This is the correct syntax for writing an 'if' statement in JavaScript.",
+      "explanation": "Begin the if statement with the if keyword. Inside the parentheses(), add a condition that evaluates to true or false. If the condition is true, execute the code inside the curly braces {}."
     },
     {
       "question_id": 7,
       "question": "How do you write an IF statement for executing some code if 'i' is NOT equal to 5?",
-      "answer_index": 3,
+      "answer_index": 0,
       "choices": ["if (i != 5)", "if i <> 5", "if (i <> 5)", "if i != 5"],
-      "hint": "This operator checks for inequality in JavaScript."
+      "hint": "This operator checks for inequality in JavaScript.",
+      "explanation": "To write an if statement in JavaScript for executing some code if 'i' is NOT equal to 5, you can use the inequality operator !==. Here's how you do it:"
     },
     {
       "question_id": 8,
@@ -1429,7 +1062,8 @@
         "while i = 1 to 10",
         "while i = 1 until 10"
       ],
-      "hint": "This is the syntax for starting a 'while' loop in JavaScript."
+      "hint": "To start a while loop in JavaScript, you need to use a specific keyword that indicates the beginning of the loop.",
+      "explanation": "A while loop in JavaScript starts with the while keyword followed by a set of parentheses (). Inside the parentheses, you specify a condition. The loop will continue executing as long as this condition evaluates to true."
     },
     {
       "question_id": 9,
@@ -1441,7 +1075,8 @@
         "for i = 1 to 5",
         "for (i = 0; i <= 5)"
       ],
-      "hint": "This is the initialization, condition, and increment/decrement syntax of a 'for' loop in JavaScript."
+      "hint": "To start a for loop in JavaScript, you need to use a keyword that indicates the beginning of the loop. It's followed by a set of parentheses ().",
+      "explanation": "A for loop in JavaScript starts with the for keyword followed by a set of parentheses (). Inside the parentheses, you specify three optional expressions separated by semicolons ;. These expressions control the initialization, condition, and iteration of the loop."
     },
     {
       "question_id": 10,
@@ -1450,49 +1085,39 @@
       "choices": [
         "'This is a comment",
         "<!--This is a comment-->",
-        "//This is a comment",
-        "/*This is a comment*/"
+        "//This is a comment or /*This is a comment*/"
       ],
-      "hint": "This syntax is used for single-line comments in JavaScript."
+      "hint": " Think about using a specific syntax that indicates to the JavaScript engine that the text should be treated as a comment and ignored during execution.",
+      "explanation": "Single-line comments: Use // to add a comment that extends until the end of the line.Multi-line comments: Enclose comments between /* and */ to create a block of comments that can span multiple lines."
     },
     {
       "question_id": 11,
-      "question": "What is the correct way to write a JavaScript array?",
+      "question": "What is the correct way to write a JavaScript object?",
       "answer_index": 3,
       "choices": [
         "var colors = 'red', 'green', 'blue'",
         "var colors = (1:'red', 2:'green', 3:'blue')",
-        "var colors = 1 = ('red'), 2 = ('green'), 3 = ('blue')",
-        "var colors = ['red', 'green', 'blue']"
+        "var colors = {'red','green','blue'}",
+        "var colors = {color: 'red',color: 'green',color :'blue }"
       ],
-      "hint": "This is the standard syntax for declaring an array in JavaScript."
+      "hint": "Think about how you would define each property of the object.",
+      "explanation": "This is the easiest way to create a JavaScript Object. Using an object literal, you both define and create an object in one statement. An object literal is a list of name:value pairs (like age:50) inside curly braces {}."
     },
     {
       "question_id": 12,
-      "question": "How do you round the number 7.25, to the nearest integer?",
-      "answer_index": 1,
-      "choices": [
-        "round(7.25)",
-        "Math.round(7.25)",
-        "rnd(7.25)",
-        "Math.rnd(7.25)"
-      ],
-      "hint": "This is the correct syntax for rounding a number to the nearest integer in JavaScript."
-    },
-    {
-      "question_id": 13,
       "question": "How do you find the number with the highest value of x and y?",
-      "answer_index": 2,
+      "answer_index": 0,
       "choices": [
         "Math.max(x, y)",
         "Math.ceil(x, y)",
-        "Math.max(x, y)",
+        "Math.min(x, y)",
         "ceil(x, y)"
       ],
-      "hint": "This function returns the highest value of the arguments."
+      "hint": "This function returns the highest value of the arguments.",
+      "explanation": "To find the number with the highest value of x and y, you can use the Math.max() function in JavaScript. Math.max(x, y) returns the maximum value between x and y."
     },
     {
-      "question_id": 14,
+      "question_id": 13,
       "question": "What is the correct JavaScript syntax for opening a new window called 'newWindow'?",
       "answer_index": 1,
       "choices": [
@@ -1501,10 +1126,11 @@
         "window.new('http://www.example.com')",
         "newWindow('http://www.example.com')"
       ],
-      "hint": "This syntax opens a new browser window."
+      "hint": "This syntax opens a new browser window.",
+      "explanation": "o open a new window in JavaScript with the name 'newWindow', you can use the window.open() method. Here's the correct syntax:window.open('https://example.com', 'newWindow');"
     },
     {
-      "question_id": 15,
+      "question_id": 14,
       "question": "JavaScript is the same as Java.",
       "answer_index": 3,
       "choices": [
@@ -1513,45 +1139,51 @@
         "Sometimes",
         "False, JavaScript and Java are different programming languages."
       ],
-      "hint": "Remember the distinction between JavaScript and Java."
+      "hint": "Remember the distinction between JavaScript and Java.",
+      "explanation": "JavaScript are radically different programming languages. JavaScript is a beginner-friendly programming language that allows developers to design interactive websites. On the other hand, Java is a complex language used to build sophisticated applications like Android apps, chatbots, and financial software."
     },
     {
-      "question_id": 16,
+      "question_id": 15,
       "question": "Which event occurs when the user clicks on an HTML element?",
       "answer_index": 1,
       "choices": ["onmouseover", "onclick", "onchange", "onmouseclick"],
-      "hint": "This event occurs when the user clicks on an HTML element."
+      "hint": "This event occurs when the user clicks on an HTML element.",
+      "explanation": "In HTML, the onclick attribute is used to assign a JavaScript function to run when an element is clicked. It directly specifies the behavior that occurs when an element is clicked."
+    },
+    {
+      "question_id": 16,
+      "question": "How do you declare a JavaScript variable?",
+      "answer_index": 2,
+      "choices": ["variable carName;", "v carName", "var carName;"],
+      "hint": "This is the standard syntax for declaring a variable.",
+      "explanation": "With the keyword var . For example, var x = 42 . This syntax can be used to declare both local and global variables, depending on the execution context."
     },
     {
       "question_id": 17,
-      "question": "How do you declare a JavaScript variable?",
-      "answer_index": 0,
-      "choices": ["var carName;", "variable carName;", "v carName"],
-      "hint": "This is the standard syntax for declaring a variable."
-    },
-    {
-      "question_id": 18,
       "question": "Which operator is used to assign a value to a variable?",
       "answer_index": 0,
       "choices": ["=", "==", "===", ":="],
-      "hint": "This operator is used for assignment in JavaScript."
+      "hint": "This operator is used for assignment in JavaScript.",
+      "explanation": "The assignment ( = ) operator is used to assign a value to a variable or property. The assignment expression itself has a value, which is the assigned value."
     },
     {
-      "question_id": 19,
+      "question_id": 18,
       "question": "What will the following code output: console.log(typeof([])); ?",
       "answer_index": 2,
       "choices": ["undefined", "array", "object", "null"],
-      "hint": "This function returns the type of the operand."
+      "hint": "This function returns the type of the operand.",
+      "explanation": "This is because in JavaScript, arrays are a type of object. So, typeof([]) returns 'object', indicating that the value is an object, specifically an array."
+    },
+    {
+      "question_id": 19,
+      "question": "Which built-in method returns the characters in a string beginning at the specified location?",
+      "answer_index": 2,
+      "choices": ["substr()", "getSubstring()", "substring()", "splice()"],
+      "hint": "This method returns the substring of a string between the specified start and end indexes.",
+      "explanation": "JavaScript substr() Method: The substr() Method built-in method that is used to return the characters in a string beginning at the specified location, Syntax: str. substr(start, length);"
     },
     {
       "question_id": 20,
-      "question": "Which built-in method returns the characters in a string beginning at the specified location?",
-      "answer_index": 2,
-      "choices": ["substr()", "getSubstring()", "substring()", "slice()"],
-      "hint": "This method returns the substring of a string between the specified start and end indexes."
-    },
-    {
-      "question_id": 21,
       "question": "What is the correct JavaScript syntax for creating a new array?",
       "answer_index": 1,
       "choices": [
@@ -1560,133 +1192,88 @@
         "var myArray = {}",
         "var myArray = new Array();"
       ],
-      "hint": "This syntax is used to create a new array in JavaScript."
+      "hint": "This syntax is used to create a new array in JavaScript.",
+      "explanation": "Using square brackets [] is the more commonly used and recommended way to create arrays in JavaScript."
+    },
+    {
+      "question_id": 21,
+      "question": "What is the result of the following expression: '5' + 2?",
+      "answer_index": 2,
+      "choices": ["52", "7", "'52'", "undefined"],
+      "hint": "In JavaScript, the '+' operator concatenates strings if one of the operands is a string.",
+      "explanation": "In JavaScript, when you use the + operator with a string and a number, it performs concatenation instead of addition if at least one operand is a string. So, the number 2 is implicitly converted to a string and then concatenated with the string '5', resulting in '52'."
     },
     {
       "question_id": 22,
-      "question": "What is the result of the following expression: '5' + 2?",
-      "answer_index": 0,
-      "choices": ["52", "7", "57", "undefined"],
-      "hint": "In JavaScript, the '+' operator concatenates strings if one of the operands is a string."
-    },
-    {
-      "question_id": 23,
-      "question": "Which function converts a string to lowercase letters?",
-      "answer_index": 1,
-      "choices": [
-        "toLower()",
-        "toLowerCase()",
-        "changeCase('lower')",
-        "toLowerCaseCase()"
-      ],
-      "hint": "This function converts all the alphabetic characters in a string to lowercase."
-    },
-    {
-      "question_id": 24,
       "question": "Which built-in method adds one or more elements to the end of an array and returns the new length of the array?",
       "answer_index": 0,
       "choices": ["push()", "pop()", "join()", "concat()"],
-      "hint": "This method modifies the array by adding the elements to the end."
+      "hint": "This method modifies the array by adding the elements to the end.",
+      "explanation": "The built-in method that adds one or more elements to the end of an array and returns the new length of the array is the push() method."
     },
     {
-      "question_id": 25,
+      "question_id": 23,
       "question": "What is the result of the following expression: 3 === '3'?",
       "answer_index": 3,
       "choices": [
         "true",
-        "false",
+        "NaN",
         "undefined",
         "false, because === compares both type and value."
       ],
-      "hint": "The === operator compares both value and type."
+      "hint": "The === operator compares both value and type.",
+      "explanation": "In JavaScript, the === operator checks for both value and type equality. Since the operands are of different types (number and string), the expression evaluates to false."
+    },
+    {
+      "question_id": 24,
+      "question": "What will the following code output: console.log(typeof(undefined)); ?",
+      "answer_index": 1,
+      "choices": ["function", "undefined", "null", "object"],
+      "hint": "This function returns the type of the operand.",
+      "explanation": "typeof is a unary operator in JavaScript that returns a string representing the data type of its operand. When typeof is applied to the undefined value, it returns the string 'undefined'."
+    },
+    {
+      "question_id": 25,
+      "question": "What does the following expression return: Boolean(10 > 9)?",
+      "answer_index": 2,
+      "choices": ["false", "NaN", "true", "null"],
+      "hint": "The Boolean() function returns a Boolean value.",
+      "explanation": "10 > 9 evaluates to true because 10 is indeed greater than 9.The Boolean() function converts its argument to a boolean value.In this case, since the argument is true, the result of Boolean(10 > 9) is true."
     },
     {
       "question_id": 26,
-      "question": "Which built-in method returns the calling string value converted to lower case?",
-      "answer_index": 2,
-      "choices": [
-        "toLowerCase()",
-        "toLower()",
-        "toLowerCaseCase()",
-        "changeCase('lower')"
-      ],
-      "hint": "This method returns the calling string value converted to lowercase."
+      "question": "Which keyword is used to declare a variable that cannot be reassigned?",
+      "answer_index": 0,
+      "choices": ["const", "let", "var", "none of the above"],
+      "hint": "This keyword is used for declaring constants in JavaScript.",
+      "explanation": "In JavaScript, the const keyword is used to declare a variable that cannot be reassigned. Once a variable is declared with const, its value cannot be changed or reassigned."
     },
     {
       "question_id": 27,
-      "question": "What will the following code output: console.log(typeof(undefined)); ?",
-      "answer_index": 1,
-      "choices": ["undefined", "undefined", "null", "object"],
-      "hint": "This function returns the type of the operand."
-    },
-    {
-      "question_id": 28,
-      "question": "How do you round the number 7.25 to the nearest whole number?",
-      "answer_index": 1,
-      "choices": [
-        "Math.round(7.25)",
-        "Math.ceil(7.25)",
-        "rnd(7.25)",
-        "Math.floor(7.25)"
-      ],
-      "hint": "This function returns the value of a number rounded to the nearest integer."
-    },
-    {
-      "question_id": 29,
-      "question": "What does the following expression return: Boolean(10 > 9)?",
-      "answer_index": 0,
-      "choices": ["true", "false", "NaN", "null"],
-      "hint": "The Boolean() function returns a Boolean value."
-    },
-    {
-      "question_id": 30,
-      "question": "What is the correct way to write a JavaScript comment?",
-      "answer_index": 2,
-      "choices": [
-        "'This is a comment",
-        "<!--This is a comment-->",
-        "//This is a comment",
-        "/*This is a comment*/"
-      ],
-      "hint": "This syntax is used for single-line comments in JavaScript."
-    },
-    {
-      "question_id": 31,
-      "question": "Which keyword is used to declare a variable that cannot be reassigned?",
-      "answer_index": 3,
-      "choices": ["const", "let", "var", "none of the above"],
-      "hint": "This keyword is used for declaring constants in JavaScript."
-    },
-    {
-      "question_id": 32,
       "question": "What is the output of the following code: console.log(0.1 + 0.2 === 0.3);?",
       "answer_index": 1,
       "choices": ["true", "false", "NaN", "SyntaxError"],
-      "hint": "Be aware of floating-point precision issues in JavaScript."
+      "hint": "Be aware of floating-point precision issues in JavaScript.",
+      "explanation": "In JavaScript, floating-point numbers are represented in binary format, which can sometimes lead to rounding errors when performing arithmetic operations. As a result, 0.1 + 0.2 does not exactly equal 0.3, although mathematically it should."
     },
     {
-      "question_id": 33,
-      "question": "Which function is used to convert a string to an integer?",
-      "answer_index": 0,
-      "choices": ["parseInt()", "stringToInt()", "toInteger()", "int()"],
-      "hint": "This function parses a string argument and returns an integer."
-    },
-    {
-      "question_id": 34,
+      "question_id": 28,
       "question": "What does the JavaScript 'typeof' operator return for the 'null' value?",
       "answer_index": 2,
       "choices": ["null", "undefined", "object", "string"],
-      "hint": "The 'typeof' operator returns the type of its operand."
+      "hint": "The 'typeof' operator returns the type of its operand.",
+      "explanation": "The typeof operator returns 'object' for objects, arrays, and null. The typeof operator does not return 'object'for functions."
     },
     {
-      "question_id": 35,
+      "question_id": 29,
       "question": "Which of the following is NOT a valid JavaScript data type?",
       "answer_index": 1,
       "choices": ["number", "void", "boolean", "string"],
-      "hint": "Think about the types supported by JavaScript."
+      "hint": "Think about the types supported by JavaScript.",
+      "explanation": "JavaScript does not have a built-in void data type. However, void is an operator in JavaScript that evaluates an expression and then returns undefined. "
     },
     {
-      "question_id": 36,
+      "question_id": 30,
       "question": "What is the purpose of the 'break' statement in JavaScript?",
       "answer_index": 0,
       "choices": [
@@ -1695,10 +1282,11 @@
         "To exit a function",
         "To create a new line"
       ],
-      "hint": "This statement is used to exit a loop or switch statement."
+      "hint": "This statement is used to exit a loop or switch statement.",
+      "explanation": "The purpose of the break statement is to terminate the execution of the nearest enclosing loop or switch statement when a certain condition is met, without completing the remaining iterations or cases."
     },
     {
-      "question_id": 37,
+      "question_id": 31,
       "question": "Which function is used to format a date in JavaScript?",
       "answer_index": 3,
       "choices": [
@@ -1707,41 +1295,11 @@
         "toDateString()",
         "toLocaleDateString()"
       ],
-      "hint": "This function returns a string representing the date in a localized format."
+      "hint": "This function returns a string representing the date in a localized format.",
+      "explanation": "By default, toLocaleDateString() will format the date according to the user's locale, including the preferred date format and language. However, you can also specify options to customize the formatting according to your requirements."
     },
     {
-      "question_id": 38,
-      "question": "What is the correct way to include comments in JavaScript?",
-      "answer_index": 2,
-      "choices": [
-        "<!-- This is a comment -->",
-        "/* This is a comment */",
-        "// This is a comment",
-        "# This is a comment"
-      ],
-      "hint": "Choose the syntax appropriate for comments in JavaScript."
-    },
-    {
-      "question_id": 39,
-      "question": "What does the '||' operator do in JavaScript?",
-      "answer_index": 0,
-      "choices": [
-        "Performs a logical OR operation",
-        "Performs a logical AND operation",
-        "Performs a logical NOT operation",
-        "None of the above"
-      ],
-      "hint": "This operator evaluates to true if either of its operands is true."
-    },
-    {
-      "question_id": 40,
-      "question": "Which method is used to remove the last element from an array and return that element?",
-      "answer_index": 1,
-      "choices": ["pop()", "shift()", "slice()", "splice()"],
-      "hint": "This method modifies the array by removing the last element."
-    },
-    {
-      "question_id": 41,
+      "question_id": 32,
       "question": "What is the purpose of the 'continue' statement in JavaScript?",
       "answer_index": 0,
       "choices": [
@@ -1750,17 +1308,19 @@
         "To jump to a specified label in the code",
         "To terminate the program"
       ],
-      "hint": "This statement is used to skip the current iteration of a loop."
+      "hint": "This statement is used to skip the current iteration of a loop.",
+      "explanation": "In JavaScript, the continue statement is used to skip the current iteration of a loop (such as for, while, or do-while) and continue with the next iteration."
     },
     {
-      "question_id": 42,
+      "question_id": 33,
       "question": "Which method is used to add new items to the beginning of an array?",
-      "answer_index": 1,
-      "choices": ["push()", "unshift()", "concat()", "append()"],
-      "hint": "This method modifies the array by adding new elements to the beginning."
+      "answer_index": 3,
+      "choices": ["push()", "concat()", "append()", "unshift()"],
+      "hint": "This method modifies the array by adding new elements to the beginning.",
+      "explanation": "To add new items to the beginning of an array in JavaScript, you can use the unshift() method."
     },
     {
-      "question_id": 43,
+      "question_id": 34,
       "question": "What does the '&&' operator do in JavaScript?",
       "answer_index": 1,
       "choices": [
@@ -1769,36 +1329,27 @@
         "Performs a logical NOT operation",
         "None of the above"
       ],
-      "hint": "This operator evaluates to true if both of its operands are true."
+      "hint": "This operator evaluates to true if both of its operands are true.",
+      "explanation": "The logical AND ( && ) (logical conjunction) operator for a set of boolean operands will be true if and only if all the operands are true . Otherwise it will be false ."
     },
     {
-      "question_id": 44,
-      "question": "Which function is used to convert a number to a string in JavaScript?",
-      "answer_index": 3,
-      "choices": [
-        "toStr()",
-        "numberToString()",
-        "convertToString()",
-        "String()"
-      ],
-      "hint": "This function converts a number to a string."
-    },
-    {
-      "question_id": 45,
+      "question_id": 35,
       "question": "What does the 'typeof' operator return for functions in JavaScript?",
-      "answer_index": 2,
-      "choices": ["function", "object", "function", "undefined"],
-      "hint": "The 'typeof' operator returns the type of its operand."
-    },
-    {
-      "question_id": 46,
-      "question": "Which built-in method is used to execute a function after a specified number of milliseconds?",
       "answer_index": 0,
-      "choices": ["setTimeout()", "setInterval()", "executeAfter()", "wait()"],
-      "hint": "This method is used to execute a function after a specified delay."
+      "choices": ["function", "object", "boolean", "undefined"],
+      "hint": "The 'typeof' operator returns the type of its operand.",
+      "explanation": "In most JavaScript environments, typeof will correctly return 'function' for functions. However, there have been cases in older JavaScript implementations where typeof could erroneously return 'object' for functions."
     },
     {
-      "question_id": 47,
+      "question_id": 36,
+      "question": "Which built-in method is used to execute a function after a specified number of milliseconds?",
+      "answer_index": 2,
+      "choices": ["setInterval()", "executeAfter()", "setTimeout()", "wait()"],
+      "hint": "This method is used to execute a function after a specified delay.",
+      "explanation": "setTimeout() is called with two arguments: a function to execute and the time to wait before executing it (in milliseconds). After the specified time elapses, the function passed as the first argument will be executed."
+    },
+    {
+      "question_id": 37,
       "question": "How do you access the first element of an array?",
       "answer_index": 0,
       "choices": [
@@ -1807,24 +1358,11 @@
         "By using array[1]",
         "By using array.getFirst()"
       ],
-      "hint": "Array indexing starts from 0 in JavaScript."
+      "hint": "Array indexing starts from 0 in JavaScript.",
+      "explanation": "To access the first element of an array in JavaScript, you can use square brackets [] notation with index 0. "
     },
     {
-      "question_id": 48,
-      "question": "What is the result of the following expression: '5' == 5?",
-      "answer_index": 0,
-      "choices": ["true", "false", "NaN", "undefined"],
-      "hint": "The '==' operator performs type coercion before comparing values."
-    },
-    {
-      "question_id": 49,
-      "question": "Which built-in method is used to remove the last element from an array and returns that element?",
-      "answer_index": 1,
-      "choices": ["pop()", "shift()", "slice()", "splice()"],
-      "hint": "This method modifies the array by removing the last element."
-    },
-    {
-      "question_id": 50,
+      "question_id": 38,
       "question": "What is the purpose of the 'new' keyword in JavaScript?",
       "answer_index": 3,
       "choices": [
@@ -1833,24 +1371,27 @@
         "To define a new object property",
         "To create an instance of a constructor function"
       ],
-      "hint": "This keyword is used to create an instance of a constructor function."
+      "hint": "Think about its role in creating instances of custom objects or constructor functions in JavaScript. ",
+      "explanation": "In JavaScript, the new keyword is primarily used for creating instances of user-defined object types or constructor functions. When you use new before a constructor function, it creates a new instance of that function's type."
     },
     {
-      "question_id": 51,
+      "question_id": 39,
       "question": "What is the output of the following code: console.log(1 + '2' + '2');?",
-      "answer_index": 2,
-      "choices": ["'122'", "'112'", "'1222'", "'5'"],
-      "hint": "JavaScript performs implicit type conversion when using the '+' operator with strings and numbers."
-    },
-    {
-      "question_id": 52,
-      "question": "Which method is used to determine if a string includes another string?",
       "answer_index": 0,
-      "choices": ["includes()", "contains()", "indexOf()", "find()"],
-      "hint": "This method checks whether a string contains the specified characters."
+      "choices": ["'122'", "'112'", "'1222'", "'5'"],
+      "hint": "JavaScript performs implicit type conversion when using the '+' operator with strings and numbers.",
+      "explanation": "1 + '2' results in '12' because JavaScript performs type coercion, converting the number 1 to a string to perform string concatenation with '2'.Then, '12' + '2'results in '122'because both operands are strings, so JavaScript performs string concatenation."
     },
     {
-      "question_id": 53,
+      "question_id": 40,
+      "question": "Which method is used to determine if a string includes another string?",
+      "answer_index": 1,
+      "choices": ["contains()", "includes()", "indexOf()", "find()"],
+      "hint": "Think about a method that might directly express the action of checking if one string is present within another string.",
+      "explanation": "You can use JavaScript's includes() method to check whether a string contains a substring. This will return true if the substring is found, or false if not."
+    },
+    {
+      "question_id": 42,
       "question": "What is the purpose of the 'typeof' operator in JavaScript?",
       "answer_index": 3,
       "choices": [
@@ -1859,36 +1400,27 @@
         "To concatenate strings",
         "To determine the type of an operand"
       ],
-      "hint": "The 'typeof' operator returns the type of its operand."
+      "hint": "The 'typeof' operator returns the type of its operand.",
+      "explanation": "Typeof in JavaScript is an operator used for type checking and returns the data type of the operand passed to it. The operand can be any variable, function, or object whose type you want to find out using the typeof operator."
     },
     {
-      "question_id": 54,
-      "question": "Which function is used to convert a string to uppercase letters?",
-      "answer_index": 2,
-      "choices": [
-        "toUpperCase()",
-        "toUpper()",
-        "toUpperCaseCase()",
-        "changeCase('upper')"
-      ],
-      "hint": "This function converts all the alphabetic characters in a string to uppercase."
-    },
-    {
-      "question_id": 55,
+      "question_id": 43,
       "question": "What is the result of the following expression: 5 == '5'?",
       "answer_index": 0,
       "choices": ["true", "false", "NaN", "undefined"],
-      "hint": "The '==' operator performs type coercion before comparing values."
+      "hint": "The '==' operator performs type coercion before comparing values.",
+      "explanation": "This is because the == operator performs type coercion, meaning it converts one of the operands to match the type of the other operand before comparison. In this case, the string '5' is converted to a number, resulting in the comparison 5 == 5, which evaluates to true."
     },
     {
-      "question_id": 56,
+      "question_id": 44,
       "question": "Which method is used to join elements of an array into a string?",
-      "answer_index": 3,
+      "answer_index": 2,
       "choices": ["split()", "concat()", "join()", "toString()"],
-      "hint": "This method joins all elements of an array into a string."
+      "hint": "This method joins all elements of an array into a string.",
+      "explanation": "We can use the JavaScript Array join() method to concatenate all elements of an array into a string separated by a separator. The output is a string and the input is an array."
     },
     {
-      "question_id": 57,
+      "question_id": 45,
       "question": "What does the '===' operator do in JavaScript?",
       "answer_index": 1,
       "choices": [
@@ -1897,10 +1429,11 @@
         "Performs a loose inequality comparison",
         "Performs a loose equality comparison"
       ],
-      "hint": "The '===' operator checks for strict equality without type conversion."
+      "hint": "Think about what makes the === operator different from the == operator in JavaScript.",
+      "explanation": "The === operator in JavaScript is called the 'strict equality' operator. It compares two values without performing type coercion. It returns true if the operands are equal and of the same type. Otherwise, it returns false."
     },
     {
-      "question_id": 58,
+      "question_id": 46,
       "question": "How do you declare a function in JavaScript using function expression?",
       "answer_index": 1,
       "choices": [
@@ -1909,24 +1442,27 @@
         "myFunction: function() {}",
         "myFunction = () => {}"
       ],
-      "hint": "Function expressions are assigned to variables."
+      "hint": "Function expressions are assigned to variables.",
+      "explanation": "In JavaScript, you can declare a function using a function expression by assigning a function to a variable. Here's the syntax for declaring a function using a function expression."
     },
     {
-      "question_id": 59,
+      "question_id": 47,
       "question": "Which method is used to remove the first element from an array and return that element?",
       "answer_index": 1,
       "choices": ["pop()", "shift()", "slice()", "splice()"],
-      "hint": "This method modifies the array by removing the first element."
+      "hint": "This method modifies the array by removing the first element.",
+      "explanation": "The method used to remove the first element from an array and return that element in JavaScript is the shift() method.shift() removes the first element (1) from the arr array and returns it. After the operation, arr contains [2, 3, 4, 5]."
     },
     {
-      "question_id": 60,
+      "question_id": 48,
       "question": "What is the output of the following code: console.log(2 * '2' + 3);?",
       "answer_index": 3,
       "choices": ["'23'", "5", "NaN", "7"],
-      "hint": "JavaScript performs implicit type conversion when using arithmetic operators with strings and numbers."
+      "hint": "JavaScript performs implicit type conversion when using arithmetic operators with strings and numbers.",
+      "explanation": "2 * '2' evaluates to 4 because JavaScript automatically converts the string '2' to a number when performing arithmetic operations.Then, 4 + 3 evaluates to 7. "
     },
     {
-      "question_id": 61,
+      "question_id": 49,
       "question": "What is the purpose of the 'isNaN()' function in JavaScript?",
       "answer_index": 0,
       "choices": [
@@ -1935,17 +1471,19 @@
         "To check if a value is infinite",
         "To round a number to the nearest integer"
       ],
-      "hint": "This function checks whether a value is NaN (Not-a-Number)."
+      "hint": "Think about what the NaN value represents in JavaScript and when it might occur.",
+      "explanation": "The purpose of isNaN() is to check if a given value is NaN or can be converted to a number. It returns true if the value is NaN or cannot be converted to a number, and false otherwise."
     },
     {
-      "question_id": 62,
+      "question_id": 50,
       "question": "Which method is used to convert a string to an array?",
-      "answer_index": 2,
-      "choices": ["parseArray()", "toCharArray()", "split()", "toArray()"],
-      "hint": "This method splits a string into an array of substrings."
+      "answer_index": 3,
+      "choices": ["parseArray()", "toCharArray()", "toArray()", "split()"],
+      "hint": "Think about what aspect of a string you might want to isolate and treat as individual elements in an array.",
+      "explanation": "In JavaScript, you can convert a string to an array using the split() method. This method splits a string into an array of substrings based on a specified separator and returns the new array."
     },
     {
-      "question_id": 63,
+      "question_id": 51,
       "question": "What does the '!=='' operator do in JavaScript?",
       "answer_index": 2,
       "choices": [
@@ -1954,31 +1492,35 @@
         "Performs a strict inequality comparison",
         "Performs a loose equality comparison"
       ],
-      "hint": "The '!==' operator checks for strict inequality without type conversion."
+      "hint": "Think about how !== compares two values in terms of their type and value.",
+      "explanation": "The !== operator in JavaScript is a comparison operator that checks whether two values are not equal in both value and type. "
     },
     {
-      "question_id": 64,
+      "question_id": 52,
       "question": "Which function is used to round a number down to the nearest integer?",
-      "answer_index": 2,
-      "choices": ["round()", "floor()", "Math.floor()", "ceil()"],
-      "hint": "This function returns the largest integer less than or equal to a given number."
+      "answer_index": 0,
+      "choices": ["Math.round()", "floor()", "Math.ceil()", "ceil()"],
+      "hint": "The nearest integer value return.",
+      "explanation": "The Math.round() method rounds a number to the nearest integer. 2.49 will be rounded down (2), and 2.5 will be rounded up (3)."
     },
     {
-      "question_id": 65,
+      "question_id": 53,
       "question": "What is the result of the following expression: true && false?",
-      "answer_index": 1,
-      "choices": ["true", "false", "NaN", "undefined"],
-      "hint": "The '&&' operator evaluates to true if both of its operands are true."
+      "answer_index": 2,
+      "choices": ["true", "NaN", "false", "undefined"],
+      "hint": "The '&&' operator evaluates to true if both of its operands are true.",
+      "explanation": "In JavaScript, the && operator represents the logical AND operation. It returns true if both operands are true, otherwise, it returns false. Since the first operand true is followed by false, the result is false."
     },
     {
-      "question_id": 66,
+      "question_id": 54,
       "question": "Which method is used to execute a function repeatedly at specified intervals?",
       "answer_index": 1,
       "choices": ["setTimeout()", "setInterval()", "executeAfter()", "wait()"],
-      "hint": "This method repeatedly calls a function or executes a code snippet, with a fixed time delay between each call."
+      "hint": "This method repeatedly calls a function.",
+      "explanation": "The setInterval() method repeatedly calls a function or executes a code snippet at a specified time interval, measured in milliseconds. It continues to execute until clearInterval() is called or the page is unloaded. This method is commonly used for animations, periodic checks, or any scenario where you need to perform a task repeatedly."
     },
     {
-      "question_id": 67,
+      "question_id": 55,
       "question": "What is the purpose of the 'void' operator in JavaScript?",
       "answer_index": 0,
       "choices": [
@@ -1987,17 +1529,19 @@
         "Performs type conversion",
         "Checks for strict equality"
       ],
-      "hint": "The 'void' operator evaluates an expression without returning a value."
+      "hint": "to evaluate an expression which does not return any value.",
+      "explanation": "The void keyword in JavaScript, is used to evaluate an expression which does not return any value. The void operator is an unary operator that accepts the single operand, which may be of any type"
     },
     {
-      "question_id": 68,
+      "question_id": 56,
       "question": "Which method is used to sort the elements of an array?",
-      "answer_index": 0,
-      "choices": ["sort()", "sorted()", "order()", "arrange()"],
-      "hint": "This method sorts the elements of an array in place and returns the sorted array."
+      "answer_index": 2,
+      "choices": ["sorted()", "order()", "sort()", "arrange()"],
+      "hint": "This method sorts the elements of an array in place and returns the sorted array.",
+      "explanation": "The sort() method of Array instances sorts the elements of an array in place and returns the reference to the same array, now sorted. The default sort order is ascending, built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values."
     },
     {
-      "question_id": 69,
+      "question_id": 57,
       "question": "What does the '||' operator do in JavaScript?",
       "answer_index": 0,
       "choices": [
@@ -2006,31 +1550,35 @@
         "Performs a logical NOT operation",
         "None of the above"
       ],
-      "hint": "The '||' operator evaluates to true if either of its operands is true."
+      "hint": "The '||' operator evaluates to true if either of its operands is true.",
+      "explanation": "The || operator in JavaScript returns the first operand if it's 'truthy'; otherwise, it returns the second operand. It's often used for setting default values or conditionally assigning values."
     },
     {
-      "question_id": 70,
+      "question_id": 58,
       "question": "What is the result of the following expression: 'Hello' + 5 + 3?",
-      "answer_index": 1,
-      "choices": ["'Hello53'", "'Hello8'", "'Hello'", "'HelloNaN'"],
-      "hint": "JavaScript performs implicit type conversion when using the '+' operator with strings and numbers."
+      "answer_index": 2,
+      "choices": ["'Hello8'", "'Hello'", "'Hello53'", "'HelloNaN'"],
+      "hint": "What happens when you add a number to a string?",
+      "explanation": "In JavaScript, when you use the + operator with a string and a number, it concatenates them together as strings. So"
     },
     {
-      "question_id": 71,
+      "question_id": 59,
       "question": "What is the output of the following code: console.log(typeof(42));?",
-      "answer_index": 1,
+      "answer_index": 0,
       "choices": ["number", "string", "integer", "undefined"],
-      "hint": "The 'typeof' operator returns the data type of its operand."
+      "hint": "The 'typeof' operator returns the data type of its operand.",
+      "explanation": "The typeof operator in JavaScript returns the data type of its operand. In this case, the operand is the number 42, so typeof(42) returns 'number'. "
     },
     {
-      "question_id": 72,
+      "question_id": 60,
       "question": "Which method is used to return the length of a string?",
       "answer_index": 3,
       "choices": ["len()", "count()", "size()", "length()"],
-      "hint": "This method returns the number of characters in a string."
+      "hint": "This method returns the number of characters in a string.",
+      "explanation": "You can access the length of a string by using the length property directly on the string"
     },
     {
-      "question_id": 73,
+      "question_id": 61,
       "question": "What is the purpose of the 'concat()' method in JavaScript?",
       "answer_index": 2,
       "choices": [
@@ -2039,241 +1587,410 @@
         "To concatenate two or more strings",
         "To add elements to an array"
       ],
-      "hint": "This method is used to concatenate two or more strings and return a new string."
+      "hint": "Think about how you would combine two arrays into a single array in JavaScript without modifying the original arrays.",
+      "explanation": "The purpose of the concat() method in JavaScript is to concatenate two or more arrays or values into a new array. It doesn't change the existing arrays; instead, it returns a new array that combines the elements of the original arrays with the additional values passed as arguments."
     },
     {
-      "question_id": 74,
+      "question_id": 62,
       "question": "Which operator is used to find the remainder of a division operation?",
       "answer_index": 0,
       "choices": ["%", "/", "*", "+="],
-      "hint": "This operator returns the remainder of a division operation."
+      "hint": "This operator returns the remainder of a division operation.",
+      "explanation": "The operator used to find the remainder of a division operation is the modulo operator, represented by the percent sign (%)."
     },
     {
-      "question_id": 75,
+      "question_id": 63,
       "question": "What is the result of the following expression: 10 / 0?",
       "answer_index": 2,
       "choices": ["0", "1", "Infinity", "NaN"],
-      "hint": "Dividing a non-zero number by zero results in positive or negative infinity."
+      "hint": "Dividing a non-zero number by zero results in positive or negative infinity.",
+      "explanation": "In JavaScript, dividing a number by zero (0) results in Infinity:"
     },
     {
-      "question_id": 76,
+      "question_id": 64,
       "question": "Which function is used to convert a string to a number in JavaScript?",
       "answer_index": 3,
       "choices": [
-        "toNumber()",
+        "toString()",
         "parseNumber()",
         "convertToNumber()",
         "parseFloat()"
       ],
-      "hint": "This function parses a string and returns a floating-point number."
+      "hint": "This function parses a string and returns a floating-point number.",
+      "explanation": "In JavaScript, there isn't a built-in function named toNumber() for converting a string to a number. The most commonly used functions for this purpose are parseInt() and parseFloat(). "
     },
     {
-      "question_id": 77,
+      "question_id": 65,
       "question": "What does the 'typeof' operator return for arrays in JavaScript?",
-      "answer_index": 0,
-      "choices": ["object", "array", "undefined", "string"],
-      "hint": "The 'typeof' operator returns the data type of its operand."
+      "answer_index": 1,
+      "choices": ["array", "object", "undefined", "string"],
+      "hint": "The 'typeof' operator returns the data type of its operand.",
+      "explanation": "In JavaScript, the typeof operator returns 'object' for arrays.This is because arrays are a type of object in JavaScript. While arrays have their own specific behaviors and methods, they are still objects under the hood."
     },
     {
-      "question_id": 78,
+      "question_id": 66,
       "question": "Which method is used to remove the last element from an array and returns the removed element?",
       "answer_index": 0,
       "choices": ["pop()", "shift()", "slice()", "splice()"],
-      "hint": "This method removes the last element from an array and returns that element."
+      "hint": "This method removes the last element from an array and returns that element.",
+      "explanation": "The pop() method removes the last element from an array and returns that element. After the pop() operation, the array length is decremented by 1."
     },
     {
-      "question_id": 79,
+      "question_id": 67,
       "question": "What is the output of the following code: console.log(+'42');?",
-      "answer_index": 1,
-      "choices": ["42", "42 (as a number)", "NaN", "undefined"],
-      "hint": "The unary plus operator converts its operand to a number."
+      "answer_index": 3,
+      "choices": ["42 (as a number)", "NaN", "undefined", "42"],
+      "hint": "The unary plus operator converts its operand to a number.",
+      "explanation": "When you put a + in front of a string containing a number, JavaScript converts it into an actual number. So +'42' becomes the number 42, and that's what gets logged to the console."
     },
     {
-      "question_id": 80,
-      "question": "What is the purpose of the 'toFixed()' method in JavaScript?",
+      "question_id": 68,
+      "question": "What is the purpose of the 'some()' method in JavaScript?",
+      "answer_index": 0,
+      "choices": [
+        "Checks if at least one element in an array satisfies a condition.",
+        "Iterates over array elements applying a callback function.",
+        "Returns true if the callback returns true for any element, otherwise false.",
+        "Provides a convenient way to check for specific conditions in arrays"
+      ],
+      "hint": "the some() method checks whether there is 'some' element in the array that meets a specific condition.",
+      "explanation": "The some() method checks if at least one element in an array satisfies a given condition."
+    },
+    {
+      "question_id": 69,
+      "question": "Which method is used to convert a number to a string in JavaScript?",
       "answer_index": 2,
       "choices": [
-        "To round a number down to the nearest integer",
-        "To round a number up to the nearest integer",
-        "To format a number with a fixed number of decimal places",
-        "To convert a number to a string"
-      ],
-      "hint": "This method formats a number using fixed-point notation."
-    },
-    {
-      "question_id": 81,
-      "question": "Which method is used to convert a number to a string in JavaScript?",
-      "answer_index": 3,
-      "choices": [
-        "toString()",
         "numberToString()",
         "convertToString()",
+        "toString()",
         "String()"
       ],
-      "hint": "This method converts a number to a string."
+      "hint": "This method converts a number to a string.",
+      "explanation": "The toString() method in JavaScript is used to convert a number to its string representation. "
     },
     {
-      "question_id": 82,
+      "question_id": 70,
       "question": "What is the output of the following code: console.log(5 + '5');?",
       "answer_index": 0,
       "choices": ["'55'", "10", "'10'", "55"],
-      "hint": "JavaScript performs implicit type conversion when using the '+' operator with strings and numbers."
+      "hint": "JavaScript performs implicit type conversion when using the '+' operator with strings and numbers.",
+      "explanation": "In JavaScript, when you use the + operator between a number and a string, the number is automatically converted to a string and concatenated with the other string."
     },
     {
-      "question_id": 83,
+      "question_id": 71,
       "question": "Which method is used to convert a string to lowercase letters?",
       "answer_index": 1,
-      "choices": [
-        "toLower()",
-        "toLowerCase()",
-        "changeCase('lower')",
-        "toLowerCaseCase()"
-      ],
-      "hint": "This method converts all the alphabetic characters in a string to lowercase."
+      "choices": ["toUpperCase()", "toLowerCase()", "toLower()", "toFixed()"],
+      "hint": "This method converts all the alphabetic characters in a string to lowercase.",
+      "explanation": "The toLowerCase() method converts all the characters in a string to lowercase letters."
     },
     {
-      "question_id": 84,
+      "question_id": 72,
       "question": "What does the 'isNaN()' function return for the value 'undefined'?",
-      "answer_index": 1,
-      "choices": ["true", "false", "NaN", "undefined"],
-      "hint": "The 'isNaN()' function checks if a value is NaN (Not-a-Number)."
-    },
-    {
-      "question_id": 85,
-      "question": "Which operator is used to perform exponentiation in JavaScript?",
-      "answer_index": 3,
-      "choices": ["^", "**", "*", "//"],
-      "hint": "This operator raises the left operand to the power of the right operand."
-    },
-    {
-      "question_id": 86,
-      "question": "What is the result of the following expression: '5' == 5?",
       "answer_index": 0,
       "choices": ["true", "false", "NaN", "undefined"],
-      "hint": "The '==' operator performs type coercion before comparing values."
+      "hint": "The 'isNaN()' function checks if a value is NaN (Not-a-Number).",
+      "explanation": "The isNaN() function returns true if the value is NaN, and false if it is a number (or can be converted to a number). Once you confirm that a value is NaN, you can convert it to a number using the Number() function."
     },
     {
-      "question_id": 87,
-      "question": "Which method is used to convert a string to uppercase letters?",
-      "answer_index": 2,
-      "choices": [
-        "toUpperCase()",
-        "toUpper()",
-        "toUpperCaseCase()",
-        "changeCase('upper')"
-      ],
-      "hint": "This method converts all the alphabetic characters in a string to uppercase."
-    },
-    {
-      "question_id": 88,
-      "question": "What does the 'indexOf()' method return if the specified substring is not found in the string?",
+      "question_id": 73,
+      "question": "Which operator is used to perform exponentiation in JavaScript?",
       "answer_index": 3,
-      "choices": ["-1", "0", "null", "-Infinity"],
-      "hint": "The 'indexOf()' method returns the index of the first occurrence of a specified substring in a string."
+      "choices": ["^", "*", "//", "**"],
+      "hint": "Think of a symbol that represents raising a number to a power, often used in mathematics.",
+      "explanation": "The ** operator provides a concise and clear way to perform exponentiation in JavaScript, replacing traditional methods like Math.pow()."
     },
     {
-      "question_id": 89,
+      "question_id": 74,
+      "question": "What is the result of the following expression: '5' === 5?",
+      "answer_index": 1,
+      "choices": ["true", "false", "NaN", "undefined"],
+      "hint": "Think about how JavaScript treats different types of values when using strict equality comparison.",
+      "explanation": "In JavaScript, the === operator checks for strict equality, meaning it checks both the value and the type of the operands."
+    },
+    {
+      "question_id": 75,
+      "question": "Which method is used to convert a string to uppercase letters?",
+      "answer_index": 3,
+      "choices": ["toLowerCase()", "concat()", "toUpper()", "toUpperCase()"],
+      "hint": "This method converts all the alphabetic characters in a string to uppercase.",
+      "explanation": "The toUpperCase() method in JavaScript is used to convert all characters in a string to uppercase letters."
+    },
+    {
+      "question_id": 76,
+      "question": "What does the 'indexOf()' method return if the specified substring is not found in the string?",
+      "answer_index": 1,
+      "choices": ["0", "-1", "null", " Undefined"],
+      "hint": "Think about the value that typically represents 'not found' .",
+      "explanation": " if the specified substring is not found in the string, the indexOf() method returns -1. It's like saying, 'I couldn 't find it, so here's a - 1 to indicate that.'"
+    },
+    {
+      "question_id": 77,
       "question": "Which function is used to convert a string to an integer?",
       "answer_index": 0,
       "choices": ["parseInt()", "stringToInt()", "toInteger()", "int()"],
-      "hint": "This function parses a string argument and returns an integer."
+      "hint": "This function parses a string argument and returns an integer.",
+      "explanation": "The parseInt() function in JavaScript helps to convert a string into an integer. For example, if you have the string '123 ', using parseInt() on it would give you the integer 123."
     },
     {
-      "question_id": 90,
+      "question_id": 78,
       "question": "What is the output of the following code: console.log(null == undefined);?",
-      "answer_index": 0,
-      "choices": ["true", "false", "NaN", "undefined"],
-      "hint": "In JavaScript, null and undefined are considered equal when using loose equality."
+      "answer_index": 2,
+      "choices": ["false", "NaN", "true", "undefined"],
+      "hint": "Think about how JavaScript treats null and undefined when comparing them with the == equality operator.",
+      "explanation": "In JavaScript, when you use the == equality operator to compare null with undefined, they are considered equal. This is a special case in JavaScript's type coercion rules."
     },
     {
-      "question_id": 91,
+      "question_id": 79,
       "question": "What is the purpose of the 'charAt()' method in JavaScript?",
-      "answer_index": 2,
+      "answer_index": 0,
       "choices": [
-        "To concatenate strings",
-        "To convert a string to uppercase",
-        "To return the character at a specified index",
-        "To check if a string contains another string"
+        " It returns the character at a specified index within a string.",
+        "It concatenates two strings.",
+        "It converts a string to lowercase.",
+        " It removes whitespace from both ends of a string."
       ],
-      "hint": "This method returns the character at a specified index in a string."
+      "hint": "This method helps you retrieve a single character from a specific position within a string.",
+      "explanation": "The charAt() method returns the character at a specified index (position) in a string."
     },
     {
-      "question_id": 92,
+      "question_id": 80,
       "question": "Which method is used to convert a string to an array?",
-      "answer_index": 2,
-      "choices": ["parseArray()", "split()", "toArray()", "stringToArray()"],
-      "hint": "This method splits a string into an array of substrings."
-    },
-    {
-      "question_id": 93,
-      "question": "What does the 'splice()' method do in JavaScript?",
-      "answer_index": 0,
-      "choices": [
-        "Changes the contents of an array by removing or replacing existing elements",
-        "Adds one or more elements to the end of an array and returns the new length",
-        "Removes the last element from an array and returns that element",
-        "Returns the first element of an array"
-      ],
-      "hint": "This method changes the contents of an array by removing or replacing existing elements."
-    },
-    {
-      "question_id": 94,
-      "question": "Which method is used to find the first occurrence of a specified value in an array?",
-      "answer_index": 3,
-      "choices": ["find()", "indexOf()", "search()", "includes()"],
-      "hint": "This method returns the index of the first occurrence of a specified value in an array, or -1 if not found."
-    },
-    {
-      "question_id": 95,
-      "question": "What is the result of the following expression: 0 == '0'?",
-      "answer_index": 0,
-      "choices": ["true", "false", "NaN", "undefined"],
-      "hint": "The '==' operator performs type coercion before comparing values."
-    },
-    {
-      "question_id": 96,
-      "question": "Which function is used to convert a number to a string with a specified number of digits after the decimal point?",
       "answer_index": 1,
+      "choices": ["parseArray()", "split()", "toArray()", "stringToArray()"],
+      "hint": "This method give new array.",
+      "explanation": "In this method, we use split() to convert a string to array in JavaScript. After the split is used, the substring is returned in an array"
+    },
+    {
+      "question_id": 81,
+      "question": "What does the 'splice()' method do in JavaScript?",
+      "answer_index": 2,
+      "choices": [
+        "Deletes elements from an array at a specified index",
+        " Inserts new elements into an array at a specified index",
+        "Removes elements from an array and, if necessary, inserts new elements in their place",
+        "Concatenates two arrays"
+      ],
+      "hint": "This method changes the contents of an array by removing or replacing existing elements.",
+      "explanation": "The splice() method is used to add or remove elements of an existing array and the return value will be the removed items from the array. If nothing was removed from the array, then the return value will just be an empty array."
+    },
+    {
+      "question_id": 82,
+      "question": "Which method is used to find the first occurrence of a specified value in an array?",
+      "answer_index": 1,
+      "choices": ["indexOf()", "find()", "search()", "includes()"],
+      "hint": "Think about a method that helps you find something specific within a group.",
+      "explanation": " the find() method is used to search for an element in an array. It returns the first element in the array that matches the provided function. If no element matches the provided function, it returns undefined."
+    },
+    {
+      "question_id": 83,
+      "question": "What is the result of the following expression: 0 == '0'?",
+      "answer_index": 3,
+      "choices": ["false", "NaN", "undefined", "true"],
+      "hint": "Think about how JavaScript handles comparisons between different types of values.",
+      "explanation": " when you compare 0 with '0' using ==, JavaScript sees that both represent the same numeric value, so it considers them equal, resulting in true."
+    },
+    {
+      "question_id": 84,
+      "question": "Which function is used to convert a number to a string with a specified number of digits after the decimal point?",
+      "answer_index": 0,
       "choices": [
         "toFixed()",
         "toPrecision()",
         "toString()",
         "toExponential()"
       ],
-      "hint": "This function formats a number using fixed-point notation."
+      "hint": "Think of a function that can make the number have a 'fixed' number of digits after the decimal point.",
+      "explanation": "If you have the number 3.14159 and you want to display it with 2 digits after the decimal point, you'd write 3.14159.toFixed(2) which would give you '3.14'."
     },
     {
-      "question_id": 97,
+      "question_id": 85,
       "question": "What is the output of the following code: console.log(typeof true);?",
-      "answer_index": 0,
-      "choices": ["boolean", "number", "string", "undefined"],
-      "hint": "The 'typeof' operator returns the data type of its operand."
+      "answer_index": 1,
+      "choices": ["number", "boolean", "string", "undefined"],
+      "hint": "The 'typeof' operator returns the data type of its operand.",
+      "explanation": "The output of console.log(typeof true); is simply boolean. This tells us that true is a boolean value in JavaScript."
     },
     {
-      "question_id": 98,
+      "question_id": 86,
       "question": "Which method is used to execute a function once for each array element?",
       "answer_index": 2,
-      "choices": ["forEach()", "map()", "every()", "filter()"],
-      "hint": "This method executes a provided function once for each array element."
+      "choices": ["map()", "forEach()", "every()", "filter()"],
+      "hint": "This method executes a provided function once for each array element.",
+      "explanation": "The forEach() method in JavaScript is used to iterate over each element of an array and execute a provided function once for each array element."
     },
     {
-      "question_id": 99,
+      "question_id": 87,
       "question": "What is the output of the following code: console.log(10 + null);?",
       "answer_index": 0,
       "choices": ["10", "null", "undefined", "NaN"],
-      "hint": "In JavaScript, null is treated as 0 when used with arithmetic operators."
+      "hint": "In JavaScript, null is treated as 0 when used with arithmetic operators.",
+      "explanation": "When JavaScript sees 10 + null, it treats null as if it were 0. So, 10 + 0 equals 10. Therefore, the output is simply 10."
+    },
+    {
+      "question_id": 88,
+      "question": "Which method is used to convert a string to a floating-point number?",
+      "answer_index": 3,
+      "choices": ["toFloat()", "parseInt()", "stringToFloat()", "parseFloat()"],
+      "hint": "This function parses a string argument and returns a floating-point number.",
+      "explanation": "The method used to convert a string to a floating-point number in JavaScript is parseFloat(). This function parses a string argument and returns a floating-point number. It stops parsing at the first character that cannot be converted to a number and ignores any subsequent characters. If the first character cannot be converted to a number, parseFloat() returns NaN (Not a Number)."
+    },
+    {
+      "question_id": 89,
+      "question": "What does the forEach method do in JavaScript?",
+      "answer_index": 0,
+      "choices": [
+        "Executes a provided function once for each array element.",
+        "Creates a new array with the results of calling a provided function on every element in the calling array.",
+        "Creates a new array with all elements that pass the test implemented by the provided function.",
+        "Executes a reducer function on each element of the array, resulting in a single output value."
+      ],
+      "hint": "This method iterates over each element in an array and executes a provided function for each element.",
+      "explanation": "The forEach method in JavaScript executes a provided function once for each array element. It is commonly used for performing actions on each item in an array without the need for explicit looping constructs like for or while loops."
+    },
+    {
+      "question_id": 90,
+      "question": "What is the functionality of the filter method in JavaScript?",
+      "answer_index": 2,
+      "choices": [
+        "Executes a provided function once for each array element.",
+        "Creates a new array with the results of calling a provided function on every element in the calling array.",
+        "Creates a new array with all elements that pass the test implemented by the provided function.",
+        "Executes a reducer function on each element of the array, resulting in a single output value."
+      ],
+      "hint": "This method is used to create a new array with elements that pass a certain condition.",
+      "explanation": "The filter method in JavaScript creates a new array with all elements that pass the test implemented by the provided function. It is commonly used to filter elements from an array based on certain criteria."
+    },
+    {
+      "question_id": 91,
+      "question": "What is the functionality of the find method in JavaScript?",
+      "answer_index": 1,
+      "choices": [
+        "Creates a new array with the results of calling a provided function on every element in the calling array.",
+        "Returns the value of the first element in the array that satisfies the provided testing function.",
+        "Executes a provided function once for each array element.",
+        "Creates a new array with all elements that pass the test implemented by the provided function."
+      ],
+      "hint": "This method is used to find the first element in an array that satisfies a specified condition.",
+      "explanation": "The find method in JavaScript returns the value of the first element in the array that satisfies the provided testing function. It is commonly used to find a specific element in an array based on a certain condition."
+    },
+    {
+      "question_id": 92,
+      "question": "What is inheritance in object-oriented programming?",
+      "answer_index": 3,
+      "choices": [
+        "It is a process of creating a new class from an existing class.",
+        "It is a process of creating a new object from an existing object.",
+        "It is a process of combining data and functionality into a single entity.",
+        "It is a mechanism by which a class inherits properties and behaviors from another class."
+      ],
+      "hint": "This concept allows a class to inherit properties and behaviors from another class.",
+      "explanation": "Inheritance in object-oriented programming is a mechanism by which a class inherits properties and behaviors from another class. It allows for code reuse and the creation of a hierarchy of classes where each class can build upon the functionalities of its parent class."
+    },
+    {
+      "question_id": 93,
+      "question": "What are closures in JavaScript?",
+      "answer_index": 0,
+      "choices": [
+        "They are functions that have access to the outer function's scope even after the outer function has finished executing.",
+        "They are functions that are defined inside another function.",
+        "They are functions that return another function.",
+        "They are functions that are passed as arguments to another function."
+      ],
+      "hint": "Closures have access to variables in their containing (enclosing) function's scope.",
+      "explanation": "Closures in JavaScript are functions that have access to the outer function's scope even after the outer function has finished executing. This allows the inner function to access and manipulate variables from the outer function's scope, even after the outer function has returned."
+    },
+    {
+      "question_id": 94,
+      "question": "Why do we use the 'this' operator in JavaScript?",
+      "answer_index": 1,
+      "choices": [
+        "To create a new object instance.",
+        "To refer to the current object within a method or constructor.",
+        "To access properties and methods of another object.",
+        "To refer to the global object."
+      ],
+      "hint": "This operator is commonly used in object-oriented programming to refer to the current object context.",
+      "explanation": "The 'this' operator in JavaScript is used to refer to the current object within a method or constructor. It allows for dynamic binding of object properties and methods within the object context."
+    },
+    {
+      "question_id": 95,
+      "question": "What are promises in JavaScript?",
+      "answer_index": 2,
+      "choices": [
+        "They are functions used for error handling in asynchronous operations.",
+        "They are built-in methods for handling asynchronous operations.",
+        "They are objects representing the eventual completion or failure of an asynchronous operation.",
+        "They are objects representing synchronous operations."
+      ],
+      "hint": "Promises are commonly used for handling asynchronous operations in JavaScript.",
+      "explanation": "Promises in JavaScript are objects representing the eventual completion or failure of an asynchronous operation. They allow you to handle asynchronous operations more easily by providing a cleaner syntax and better error handling compared to traditional callback-based approaches."
+    },
+    {
+      "question_id": 96,
+      "question": "How can you generate a one-time password (OTP) in JavaScript?",
+      "answer_index": 3,
+      "choices": [
+        "Use a predefined algorithm to calculate the OTP.",
+        "Retrieve the OTP from a database.",
+        "Prompt the user to enter the OTP.",
+        "Generate a random string of numbers."
+      ],
+      "hint": "Consider using random number generation.",
+      "explanation": "To generate a one-time password (OTP) in JavaScript, you can generate a random string of numbers. This ensures that each OTP is unique and difficult to guess, providing security for authentication purposes."
+    },
+    {
+      "question_id": 97,
+      "question": "How do you write an arrow function in JavaScript?",
+      "answer_index": 0,
+      "choices": [
+        "Using the arrow (=>) syntax.",
+        "Using the function keyword.",
+        "Using the fat arrow (->) syntax.",
+        "Using the lambda keyword."
+      ],
+      "hint": "Arrow functions provide a concise syntax for writing functions.",
+      "explanation": "To write an arrow function in JavaScript, you use the arrow (=>) syntax. Arrow functions are especially useful for writing shorter, more readable code, especially when dealing with functions that have simple logic or need lexical scoping of the 'this' keyword."
+    },
+    {
+      "question_id": 98,
+      "question": "What is the syntax of a class in JavaScript?",
+      "answer_index": 1,
+      "choices": [
+        "ClassName { /* class body */ }",
+        "class ClassName { /* class body */ }",
+        "function ClassName { /* class body */ }",
+        "ClassName.prototype { /* class body */ }"
+      ],
+      "hint": "The syntax involves using the 'class' keyword.",
+      "explanation": "The syntax of a class in JavaScript involves using the 'class' keyword followed by the class name and a pair of curly braces containing the class body. Inside the class body, you can define class properties, methods, and a constructor."
+    },
+    {
+      "question_id": 99,
+      "question": "Why would you use the 'charAt' method in JavaScript?",
+      "answer_index": 2,
+      "choices": [
+        "To check if a string contains a specific character.",
+        "To concatenate two strings together.",
+        "To retrieve the character at a specified index in a string.",
+        "To convert a string to uppercase."
+      ],
+      "hint": "Consider what the 'charAt' method does.",
+      "explanation": "The 'charAt' method in JavaScript is used to retrieve the character at a specified index in a string. It returns the character at the specified position as a new string. This method is useful when you need to access individual characters in a string for manipulation or comparison."
     },
     {
       "question_id": 100,
-      "question": "Which method is used to convert a string to a floating-point number?",
-      "answer_index": 3,
+      "question": "What is the purpose of the 'splice' method in JavaScript?",
+      "answer_index": 1,
       "choices": [
-        "toFloat()",
-        "parseFloat()",
-        "stringToFloat()",
-        "parseFloat()"
+        "To remove the last element from an array.",
+        "To add or remove elements from an array at a specified index.",
+        "To add new elements to the end of an array.",
+        "To sort the elements of an array."
       ],
-      "hint": "This function parses a string argument and returns a floating-point number."
+      "hint": "Consider what the 'splice' method does with arrays.",
+      "explanation": "The 'splice' method in JavaScript is used to add or remove elements from an array at a specified index. It can be used to remove elements, add new elements, or replace existing elements in the array. The 'splice' method modifies the original array and returns an array containing the removed elements, if any."
     }
   ],
   "react": [
