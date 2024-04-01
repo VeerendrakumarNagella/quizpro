@@ -23,7 +23,7 @@ const QuestionSelect: FC<QProps> = ({ handleChange }) => {
       <option value={40}>40</option>
       <option value={45}>45</option>
       <option value={50}>50</option>
-      <option value={100}>All</option>
+      <option value={100}>100</option>
     </Form.Select>
   );
 };

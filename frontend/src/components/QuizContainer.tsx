@@ -61,12 +61,8 @@ const QuizContainer = () => {
   };
 
   const getQuizData = () => {
-    const questionsData = questions[topic];
-    const filterItems: any[] =
-      (questionsData &&
-        questionsData.length &&
-        questionsData.filter((_i, index: number) => noOfQuestions > index)) ||
-      [];
+    const questionsData: any [] = questions[topic];
+    const filterItems: any[] = questionsData.filter((_i, index: number) => noOfQuestions > index) || [];
     setquizData({ data: shuffleQuestions(filterItems), loading: false });
   };
 
